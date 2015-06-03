@@ -37,7 +37,6 @@ if !exists("g:nobundles")
 	Plugin 'xolox/vim-notes'
 	Plugin 'airblade/vim-gitgutter'
 	Plugin 'bling/vim-airline'
-	" Plugin 'KabbAmine/zeavim.vim' 
 	Plugin 'Shougo/vimproc.vim'
 	Plugin 'Shougo/neocomplete.vim'
 	" Plugin 'haya14busa/incsearch.vim'
@@ -46,6 +45,7 @@ if !exists("g:nobundles")
 	" Plugin 'waiting-for-dev/vim-www'
 	Plugin 'brainfuck-syntax'
 	" Plugin 'jszakmeister/vim-togglecursor'
+	" Plugin 'diepm/vim-rest-console'
 	Plugin 'serpent7776/vim-vish'
 
 	call vundle#end()

@@ -255,6 +255,7 @@ vmap \y "+y
 vmap \d "+d
 vmap \p "+p
 vmap \P "+P
+imap <S-Insert> <C-R>*
 
 "tabs:
 map gr gT

@@ -1,7 +1,6 @@
 " ui
 set guioptions+=t
 set guioptions-=T
-set tb=
 
 " displaying text
 set guifont=DejaVu\ Sans\ Mono\ 10

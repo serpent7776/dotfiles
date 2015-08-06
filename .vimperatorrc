@@ -1,0 +1,13 @@
+"3.9 (created: 2015/02/15 15:49:05)
+
+map d <C-d>
+map <Tab> :
+map u <C-u>
+map gh :tabm<Space>-1<Return>
+map gl :tabm<Space>+1<Return>
+noremap x d
+noremap U u
+set hintchars=hjklasdfgyuiowertcvbnm
+source! /home/serpent/.vimperatorrc.local
+
+" vim: set ft=vimperator:

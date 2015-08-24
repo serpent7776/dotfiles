@@ -24,7 +24,7 @@ let g:airline_powerline_fonts=0
 "Menus:
 menu ]MyMenu.Plugin.Enable\ IndentTab	:call IndentTab#Set(1, 0)<CR>
 menu ]MyMenu.Plugin.Syntastic\ disable\ auto\ loclist	:let g:syntastic_auto_loc_list = 0<CR>
-menu ]MyMenu.Plugin.Syntastic\ enable\ auto\ loclist	:let g:syntastic_auto_loc_list = 0<CR>
+menu ]MyMenu.Plugin.Syntastic\ enable\ auto\ loclist	:let g:syntastic_auto_loc_list = 1<CR>
 menu ]MyMenu.External.cppcheck\ current\ file	:!cppcheck --enable=all %<CR>
 
 "Mappings:

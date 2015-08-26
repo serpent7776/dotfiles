@@ -43,6 +43,7 @@ if !exists("g:nobundles")
 	" Plugin 'ctab'
 	" Plugin 'vimspell'
 	" Plugin 'waiting-for-dev/vim-www'
+	Plugin 'serpent7776/vim-logcat'
 	Plugin 'brainfuck-syntax'
 	" Plugin 'jszakmeister/vim-togglecursor'
 	" Plugin 'diepm/vim-rest-console'

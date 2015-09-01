@@ -196,7 +196,6 @@ let g:neocomplete#sources#syntax#min_keyword_length = 3
 command -nargs=1 -complete=file E	tabe <args>
 
 "autocommands:
-au BufRead,BufNewFile logcat set filetype=logcat
 
 "Mappings:
 "misc:

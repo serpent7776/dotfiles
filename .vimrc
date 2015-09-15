@@ -134,7 +134,7 @@ let g:ycm_key_list_select_completion = ['<S-CR>', '<Down>']
 let g:ycm_key_list_previous_completion = ['<Up>']
 let g:ycm_show_diagnostics_ui = 0
 "Syntastic:
-let g:syntastic_auto_loc_list = 1
+let g:syntastic_auto_loc_list = 0
 let g:syntastic_aggregate_errors = 1
 let g:syntastic_c_checkers = ["gcc", "sparse", "cppcheck", "splint"]
 let g:syntastic_c_compiler = "clang"

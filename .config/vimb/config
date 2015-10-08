@@ -1,0 +1,34 @@
+set accelerated-compositing=false
+set download-path=~/Downloads
+set editor-command=gvim %s
+set hint-timeout=0
+set hintkeys=werqfgasdcvbt
+set java-applet=false
+set media-playback-requires-user-gesture=true
+set minimumfontsize=9
+set plugins=false
+set sansfont=arial normal 10
+set x-hint-command=:sh! firefox <C-R>;<CR>
+set webinspector=true
+set strict-ssl=true
+set cookie-accept=origin
+
+nmap d <C-d>
+nmap u <C-u>
+nmap J <C-d>
+nmap K <C-u>
+nmap x :q<CR>
+nmap gs gf
+nmap `` ''
+nnoremap gt :sh! xdotool key --window $VIMB_XID ctrl+shift+l<CR><Esc>
+nnoremap gT :sh! xdotool key --window $VIMB_XID ctrl+shift+h<CR><Esc>
+nnoremap gr gT
+
+shortcut-add dd=https://next.duckduckgo.com/?q=$0
+shortcut-add g=https://www.google.com/search?q=$0
+shortcut-add we=http://en.wikipedia.org/wiki/Special:Search?search=$0
+shortcut-add wp=http://pl.wikipedia.org/w/index.php?search=$0
+shortcut-add wi=https://en.wiktionary.org/wiki/Special:Search?search=$0
+shortcut-add port=http://www.freshports.org/search.php?query=$0&search=go&num=10&stype=name&method=match&deleted=excludedeleted&start=1&casesensitivity=caseinsensitive
+
+shortcut-default dd

@@ -1,0 +1,25 @@
+._hintLabel {
+    -webkit-transform:translate(-8px,-5px);
+    position: absolute;
+    z-index: 100000;
+    font: bold 13px  Droid Sans !important;
+    color: #000;
+    background-color: #ff6 !important;
+    background-image: -webkit-linear-gradient(top, #ff0 0%, #ff6 50%, #ff0 100%) !important;
+    margin: 0;
+    padding: 0 1px;
+    border: 2px inset #333;
+    opacity: 0.95;
+    text-transform: uppercase;
+}
+._hintElem {
+    background-color: #ff0 !important;
+    color: #000 !important;
+}
+._hintElem._hintFocus{
+    background-color: #8f0 !important;
+}
+._hintLabel._hintFocus{
+    z-index: 100001;
+    opacity: 1;
+}

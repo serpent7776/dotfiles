@@ -286,6 +286,8 @@ map <A-.> :bn<LF>
 
 "searching and highlighting
 map <Space>nh :noh<LF>
+nmap ]<space> /\s\+$<LF>
+nmap [<space> ?\s\+$<LF>
 nmap ,mm <Plug>VMarkToggle
 nmap ,mn <Plug>VMarkNext
 nmap ,mN <Plug>VMarkPrevious

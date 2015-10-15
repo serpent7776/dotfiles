@@ -78,11 +78,12 @@ colo vish
 set numberwidth=4
 set lbr
 set list
-set lcs=tab:¦\ ,trail:․
+set lcs=tab:¦\ ,trail:·
 set display=lastline
 
 "formatting text
 set formatoptions +=rj
+set cinoptions=g0,t0,j1,l1
 set formatoptions -=o
 set ai
 

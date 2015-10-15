@@ -138,6 +138,7 @@ let g:ycm_key_list_previous_completion = ['<Up>']
 let g:ycm_show_diagnostics_ui = 0
 "Syntastic:
 let g:syntastic_auto_loc_list = 0
+let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_aggregate_errors = 1
 let g:syntastic_c_checkers = ["gcc", "sparse", "cppcheck", "splint"]
 let g:syntastic_c_compiler = "clang"
@@ -194,6 +195,11 @@ let g:neocomplete#enable_fuzzy_completion = 1
 let g:neocomplete#auto_completion_start_length = 3
 let g:neocomplete#manual_completion_start_length = 2
 let g:neocomplete#sources#syntax#min_keyword_length = 3
+" LeaderF
+let g:Lf_WildIgnore = {
+			\ 'dir': ['.svn', '.git', 'build', '.gradle', '.idea', 'libs'],
+			\ 'file': ['*.sw?', '~$*', '*.bak', '*.exe', '*.o', '*.so', '*.py[co]']
+			\}
 
 "commands
 command -nargs=1 -complete=file E	tabe <args>

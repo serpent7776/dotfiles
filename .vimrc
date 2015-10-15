@@ -35,6 +35,7 @@ if !exists("g:nobundles")
 	Plugin 'tpope/vim-capslock'
 	Plugin 'tpope/vim-eunuch'
 	Plugin 'xolox/vim-misc'
+	Plugin 'xolox/vim-shell'
 	Plugin 'xolox/vim-notes'
 	Plugin 'airblade/vim-gitgutter'
 	Plugin 'bling/vim-airline'

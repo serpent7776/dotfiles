@@ -84,8 +84,8 @@ set display=lastline
 
 "formatting text
 set formatoptions +=rj
-set cinoptions=g0,t0,j1,l1
 set formatoptions -=o
+set cinoptions=g0,t0,j1,l1,(s,m1
 set ai
 
 "folds

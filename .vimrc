@@ -32,6 +32,7 @@ if !exists("g:nobundles")
 	Plugin 'tpope/vim-surround'
 	" Plugin 'tpope/vim-speeddating'
 	Plugin 'tpope/vim-fugitive'
+	Plugin 'gregsexton/gitv'
 	Plugin 'tpope/vim-capslock'
 	Plugin 'tpope/vim-eunuch'
 	Plugin 'xolox/vim-misc'

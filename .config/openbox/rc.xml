@@ -235,6 +235,24 @@
 					<action name="ShrinkToEdge"><direction>east</direction></action>
 				</keybind>
 			</keybind>
+			<keybind key="s">
+				<keybind key="h">
+					<action name="MoveResizeTo">
+						<x>0</x>
+						<y>0</y>
+						<width>50%</width>
+						<height>100%</height>
+					</action>
+				</keybind>
+				<keybind key="l">
+					<action name="MoveResizeTo">
+						<x>-0</x>
+						<y>0</y>
+						<width>50%</width>
+						<height>100%</height>
+					</action>
+				</keybind>
+			</keybind>
 		</keybind>
 		<!-- Keybindings for desktop switching -->
 		<keybind key="W-KP_1">

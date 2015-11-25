@@ -187,28 +187,28 @@
 		<keybind key="W-W">
 			<keybind key="r" chroot="true">
 				<keybind key="h">
-				 <action name="ResizeRelative"><left>32</left></action>
+					<action name="ResizeRelative"><left>32</left></action>
 				</keybind>
 				<keybind key="j">
-				 <action name="ResizeRelative"><bottom>32</bottom></action>
+					<action name="ResizeRelative"><bottom>32</bottom></action>
 				</keybind>
 				<keybind key="k">
-				 <action name="ResizeRelative"><top>32</top></action>
+					<action name="ResizeRelative"><top>32</top></action>
 				</keybind>
 				<keybind key="l">
-				 <action name="ResizeRelative"><right>32</right></action>
+					<action name="ResizeRelative"><right>32</right></action>
 				</keybind>
 				<keybind key="S-h">
-				 <action name="ResizeRelative"><right>-32</right></action>
+					<action name="ResizeRelative"><right>-32</right></action>
 				</keybind>
 				<keybind key="S-j">
-				 <action name="ResizeRelative"><top>-32</top></action>
+					<action name="ResizeRelative"><top>-32</top></action>
 				</keybind>
 				<keybind key="S-k">
-				 <action name="ResizeRelative"><bottom>-32</bottom></action>
+					<action name="ResizeRelative"><bottom>-32</bottom></action>
 				</keybind>
 				<keybind key="S-l">
-				 <action name="ResizeRelative"><left>-32</left></action>
+					<action name="ResizeRelative"><left>-32</left></action>
 				</keybind>
 				<keybind key="C-h">
 					<action name="GrowToEdge"><direction>west</direction></action>

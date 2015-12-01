@@ -198,7 +198,7 @@ let g:neocomplete#manual_completion_start_length = 2
 let g:neocomplete#sources#syntax#min_keyword_length = 3
 " LeaderF
 let g:Lf_WildIgnore = {
-			\ 'dir': ['.svn', '.git', 'build', '.gradle', '.idea', 'libs'],
+			\ 'dir': ['.svn', '.git', 'build', '.gradle', '.idea', 'libs', 'assets'],
 			\ 'file': ['*.sw?', '~$*', '*.bak', '*.exe', '*.o', '*.so', '*.py[co]']
 			\}
 

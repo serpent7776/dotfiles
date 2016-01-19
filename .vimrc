@@ -8,7 +8,7 @@ if !exists("g:nobundles")
 	Plugin 'ciaranm/securemodelines'
 	Plugin 'LargeFile'
 	Plugin 'Yggdroot/LeaderF'
-	Plugin 'autoclose'
+	Plugin 'cohama/lexima.vim'
 	Plugin 'bkad/CamelCaseMotion'
 	Plugin 'junegunn/vim-easy-align'
 	" Plugin 'kbairak/TurboMark'

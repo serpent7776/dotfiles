@@ -11,7 +11,6 @@ if !exists("g:nobundles")
 	Plugin 'autoclose'
 	Plugin 'bkad/CamelCaseMotion'
 	Plugin 'junegunn/vim-easy-align'
-	" Plugin 'Lokaltog/vim-easymotion'
 	" Plugin 'kbairak/TurboMark'
 	Plugin 'matze/vim-move'
 	Plugin 'michaelzhou999/vmark'

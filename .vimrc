@@ -336,6 +336,7 @@ vmap <A-l> <Plug>(textmanip-move-right)
 vmap <Enter> <Plug>(EasyAlign)
 nmap ,a <Plug>(EasyAlign)
 nnoremap <expr> gc '`[' . strpart(getregtype(), 0, 1) . '`]'
+vmap \s :sort u<LF>
 
 "other:
 map <A-w> :LeaderfBuffer<LF>

@@ -201,6 +201,7 @@ let g:Lf_WildIgnore = {
 			\ 'dir': ['.svn', '.git', 'build', '.gradle', '.idea', 'libs', 'assets'],
 			\ 'file': ['*.sw?', '~$*', '*.bak', '*.exe', '*.o', '*.so', '*.py[co]']
 			\}
+let g:Lf_ShortcutB = '<leader><S-b>'
 
 "commands
 command -nargs=1 -complete=file E	tabe <args>

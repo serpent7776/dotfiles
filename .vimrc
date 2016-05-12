@@ -46,6 +46,7 @@ if !exists("g:nobundles")
 	" Plugin 'ctab'
 	" Plugin 'vimspell'
 	" Plugin 'waiting-for-dev/vim-www'
+	Plugin 'beyondmarc/glsl.vim'
 	Plugin 'serpent7776/vim-logcat'
 	Plugin 'brainfuck-syntax'
 	" Plugin 'jszakmeister/vim-togglecursor'

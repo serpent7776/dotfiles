@@ -41,6 +41,7 @@ if !exists("g:nobundles")
 	Plugin 'vim-airline/vim-airline'
 	Plugin 'vim-airline/vim-airline-themes'
 	Plugin 'Shougo/vimproc.vim'
+	Plugin 'Konfekt/FastFold'
 	Plugin 'Shougo/neocomplete.vim'
 	" Plugin 'haya14busa/incsearch.vim'
 	" Plugin 'ctab'

@@ -212,7 +212,7 @@ command -nargs=1 -complete=file E	tabe <args>
 
 "Mappings:
 "misc:
-map <Tab> :
+map ,; :
 map \q :bd<LF>
 map \o o<ESC>
 map \O O<ESC>

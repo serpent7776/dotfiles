@@ -1,0 +1,47 @@
+!cursor
+Xcursor.theme:	oxy-neon
+Xcursor.size:	16
+
+!Xft
+Xft.dpi:        96
+Xft.antialias:  true
+Xft.rgba:       rgb
+Xft.hinting:    true
+Xft.hintstyle:  hintslight
+
+!XTerm
+XTerm.vt100.reverseVideo:	true
+XTerm.vt100.faceSize:		10.0
+XTerm.vt100.faceName:		Liberation Mono
+XTerm.vt100.renderFont:		true
+XTerm.vt100.ctrlFKeys:		10
+XTerm.vt100.modifyFunctionKeys:	0
+*VT100*translations:    #override \n\
+	Shift <KeyPress> Insert: insert-selection(PRIMARY) \n\
+	Ctrl Shift <KeyPress> Insert:  insert-selection(CLIPBOARD) \n\
+	Ctrl Shift <KeyPress> C:  copy-selection(CLIPBOARD)
+XTerm.vt100.AltIsNotMeta:	true
+! fix alt mappings in vim
+XTerm.vt100.AltSendsEscape:	false
+
+!urxvt
+URxvt*background: black
+URxvt*foreground: white
+URxvt.reverseVideo: false
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+URxvt.scrollBar: false
+URxvt.font: xft:DejaVu Sans Mono:size=9
+URxvt.letterSpace: -1
+!disable the scrollback buffer in a secondary screen
+URxvt.secondaryScreen: 1
+URxvt.secondaryScroll: 0
+!clickable urls
+URxvt.perl-ext-common: default,matcher
+URxvt.url-launcher: /usr/local/bin/vimb
+URxvt.matcher.button: 1
+
+!yeahconsole
+yeahconsole*consoleHeight:	16
+yeahconsole*stepSize:		2
+yeahconsole*toggleKey:		Alt+grave

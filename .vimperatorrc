@@ -8,6 +8,8 @@ map gl :tabm<Space>+1<Return>
 map gs :tab :viewsource<Return>
 noremap x d
 noremap U u
+noremap gr gT
+noremap gR gr
 set hintchars=hjklasdfgyuiowertcvbnm
 set complete=l
 

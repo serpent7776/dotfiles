@@ -11,7 +11,6 @@ if !exists("g:nobundles")
 	Plugin 'cohama/lexima.vim'
 	Plugin 'bkad/CamelCaseMotion'
 	Plugin 'junegunn/vim-easy-align'
-	" Plugin 'kbairak/TurboMark'
 	Plugin 'matze/vim-move'
 	Plugin 'michaelzhou999/vmark'
 	" Plugin 'tomtom/tcomment_vim'
@@ -19,7 +18,6 @@ if !exists("g:nobundles")
 	Plugin 'qwertologe/nextval.vim'
 	Plugin 'rking/ag.vim'
 	Plugin 'scrooloose/nerdcommenter'
-	" Plugin 'scrooloose/nerdtree'
 	Plugin 'scrooloose/syntastic'
 	Plugin 't9md/vim-textmanip'
 	Plugin 'tmhedberg/matchit'
@@ -44,7 +42,6 @@ if !exists("g:nobundles")
 	Plugin 'Konfekt/FastFold'
 	Plugin 'Shougo/neocomplete.vim'
 	" Plugin 'haya14busa/incsearch.vim'
-	" Plugin 'ctab'
 	" Plugin 'vimspell'
 	" Plugin 'waiting-for-dev/vim-www'
 	Plugin 'tikhomirov/vim-glsl'
@@ -345,5 +342,3 @@ vmap \s :sort u<LF>
 map <A-w> :LeaderfBuffer<LF>
 map <S-F1> :ViewDoc 
 map <S-F9> :ConqueTerm
-nmap \m :TurboMark<CR>
-nmap \' :TurboFind<CR>

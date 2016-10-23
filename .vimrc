@@ -8,6 +8,7 @@ if !exists("g:nobundles")
 	Plugin 'ciaranm/securemodelines'
 	Plugin 'LargeFile'
 	Plugin 'Yggdroot/LeaderF'
+	" Plugin 'wincent/command-t'
 	Plugin 'cohama/lexima.vim'
 	Plugin 'bkad/CamelCaseMotion'
 	Plugin 'junegunn/vim-easy-align'
@@ -201,6 +202,10 @@ let g:Lf_WildIgnore = {
 			\ 'file': ['*.sw?', '~$*', '*.bak', '*.exe', '*.o', '*.so', '*.py[co]']
 			\}
 let g:Lf_ShortcutB = '<leader><S-b>'
+"CommandT:
+let g:CommandTFileScanner = 'git'
+let g:CommandTGitScanSubmodules = 1
+" let g:CommandTWildIgnore = &wildignore . ''
 
 "commands
 command -nargs=1 -complete=file E	tabe <args>

@@ -5,6 +5,9 @@ set	autolist = ambiguous
 set	color
 set	colorcat
 
+setenv LESS        -iR
+setenv LESSSECURE  1
+
 # bindkey -v
 bindkey "^W" backward-delete-word
 bindkey -k up history-search-backward

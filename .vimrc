@@ -52,7 +52,6 @@ if !exists("g:nobundles")
 	Plugin 'serpent7776/vim-logcat'
 	Plugin 'brainfuck-syntax'
 	" Plugin 'jszakmeister/vim-togglecursor'
-	" Plugin 'diepm/vim-rest-console'
 	Plugin 'serpent7776/vim-vish'
 
 	call vundle#end()

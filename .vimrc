@@ -151,6 +151,7 @@ let g:syntastic_c_splint_args = "+posix-lib"
 let g:syntastic_cpp_checkers = ["gcc", "cppcheck"]
 let g:syntastic_cpp_compiler = "clang"
 let g:syntastic_cpp_compiler_options = "-std=c++11 -I/usr/local/include"
+let g:syntastic_java_checkers = ["checkstyle"]
 let g:syntastic_javascript_checkers = ["jsl", "jshint"]
 " let g:syntastic_nroff_checkers = ["igor"]
 "Notes:

@@ -528,9 +528,9 @@
 			<action name="Execute">
 				<startupnotify>
 					<enabled>true</enabled>
-					<name>sakura</name>
+					<name>xterm</name>
 				</startupnotify>
-				<command>sakura</command>
+				<command>xterm</command>
 			</action>
 		</keybind>
 		<keybind key="W-Return">

@@ -206,6 +206,8 @@ let g:Lf_ShortcutB = '<leader><S-b>'
 let g:CommandTFileScanner = 'git'
 let g:CommandTGitScanSubmodules = 1
 " let g:CommandTWildIgnore = &wildignore . ''
+"CamelCaseMotion:
+call camelcasemotion#CreateMotionMappings('<leader>')
 
 "commands
 command -nargs=1 -complete=file E	tabe <args>

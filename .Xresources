@@ -25,8 +25,8 @@ XTerm.vt100.AltIsNotMeta:	true
 XTerm.vt100.AltSendsEscape:	false
 
 !urxvt
-URxvt*background: black
-URxvt*foreground: white
+URxvt.background: black
+URxvt.foreground: white
 URxvt.reverseVideo: false
 URxvt.iso14755: false
 URxvt.iso14755_52: false

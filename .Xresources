@@ -33,7 +33,13 @@ URxvt.iso14755_52: false
 URxvt.scrollBar: false
 URxvt.font: xft:DejaVu Sans Mono:size=9
 URxvt.letterSpace: -1
-!disable the scrollback buffer in a secondary screen
+URxvt.meta8: true
+! scrolling
+URxvt.scrollBar: false
+URxvt.scrollTtyOutput: false
+URxvt.scrollWithBuffer: true
+URxvt.scrollTtyKeypress: true
+! disable the scrollback buffer in a secondary screen
 URxvt.secondaryScreen: 1
 URxvt.secondaryScroll: 0
 !clickable urls

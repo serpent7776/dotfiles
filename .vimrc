@@ -196,6 +196,7 @@ let g:airline#extensions#windowswap#enabled = 0
 "Neocomplete:
 let g:neocomplete#enable_at_startup = 1
 let g:neocomplete#enable_fuzzy_completion = 1
+let g:neocomplete#enable_smart_case = 1
 let g:neocomplete#auto_completion_start_length = 3
 let g:neocomplete#manual_completion_start_length = 2
 let g:neocomplete#sources#syntax#min_keyword_length = 3

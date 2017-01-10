@@ -230,6 +230,9 @@ map \M<space> :QuickhlMatch<LF>
 map \Mc :QuickhlMatchClear<LF>
 imap <S-Tab> 
 imap <C-Tab> <C-T>
+imap <A-a> <C-o>A
+imap <A-;> <C-o>A;
+imap <A-[> <C-O>A<space>{<NL>%o
 
 "movement:
 noremap ,, ,

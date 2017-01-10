@@ -1,3 +1,6 @@
+bind '"\e[A": history-search-backward'
+bind '"\e[B": history-search-forward'
+
 alias j=jobs
 alias m=$PAGER
 alias ll='ls -laFo'

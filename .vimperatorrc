@@ -5,7 +5,7 @@ map <Tab> :
 map u <C-u>
 map gh :tabm<Space>-1<Return>
 map gl :tabm<Space>+1<Return>
-map gs :tab :viewsource<Return>
+map gs :tab<Space>:viewsource<Return>
 noremap x d
 noremap U u
 noremap gr gT

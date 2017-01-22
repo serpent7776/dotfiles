@@ -519,9 +519,9 @@
 			<action name="Execute">
 				<startupnotify>
 					<enabled>true</enabled>
-					<name>rofi -show run</name>
+					<name>rofi</name>
 				</startupnotify>
-				<command>rofi -show run</command>
+				<command>rofi -modi run,drun,ssh -show run</command>
 			</action>
 		</keybind>
 		<keybind key="W-C-x">
@@ -601,7 +601,7 @@
 					<enabled>false</enabled>
 					<name>rofi</name>
 				</startupnotify>
-				<command>rofi -show window</command>
+				<command>rofi -modi window,windowcd -show windowcd</command>
 			</action>
 		</keybind>
 	</keyboard>

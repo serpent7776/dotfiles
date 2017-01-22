@@ -528,9 +528,9 @@
 			<action name="Execute">
 				<startupnotify>
 					<enabled>true</enabled>
-					<name>xterm</name>
+					<name>st</name>
 				</startupnotify>
-				<command>xterm</command>
+				<command>st</command>
 			</action>
 		</keybind>
 		<keybind key="W-Return">

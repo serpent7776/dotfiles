@@ -497,22 +497,31 @@
 			</action>
 		</keybind>
 		<!-- Keybindings for running applications -->
-		<keybind key="W-S-grave">
+		<keybind key="W-grave">
 			<action name="Execute">
 				<startupnotify>
 					<enabled>true</enabled>
-					<name>rofi -show run</name>
+					<name>dmenu_run</name>
 				</startupnotify>
-				<command>rofi -show run</command>
+				<command>dmenu_run</command>
 			</action>
 		</keybind>
-		<keybind key="W-grave">
+		<keybind key="W-S-grave">
 			<action name="Execute">
 				<startupnotify>
 					<enabled>true</enabled>
 					<name>gmrun</name>
 				</startupnotify>
 				<command>gmrun</command>
+			</action>
+		</keybind>
+		<keybind key="W-C-grave">
+			<action name="Execute">
+				<startupnotify>
+					<enabled>true</enabled>
+					<name>rofi -show run</name>
+				</startupnotify>
+				<command>rofi -show run</command>
 			</action>
 		</keybind>
 		<keybind key="W-C-x">

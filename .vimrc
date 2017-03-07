@@ -90,7 +90,7 @@ set display=lastline
 "formatting text
 set formatoptions +=rj
 set formatoptions -=o
-set cinoptions=g0,t0,j1,l1,(s,m1
+set cinoptions=g0,t0,j1,l1,(s,W1s,m1
 set ai
 
 "folds
@@ -310,7 +310,7 @@ map <A-.> :bn<LF>
 
 "searching and highlighting
 map <Space>nh :noh<LF>
-nmap <C-l> :noh<LF>:diffupdate<LF>:syntax sync fromstart<LF>
+nmap <C-l> :noh<LF>:diffupdate<LF>:redraw!<LF>
 nmap ]<space> /\s\+$<LF>
 nmap [<space> ?\s\+$<LF>
 nmap ,mm <Plug>VMarkToggle

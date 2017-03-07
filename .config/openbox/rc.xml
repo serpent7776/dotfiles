@@ -601,7 +601,7 @@
 					<enabled>false</enabled>
 					<name>rofi</name>
 				</startupnotify>
-				<command>rofi -modi window,windowcd -show windowcd</command>
+				<command>rofi -modi window,windowcd -show window</command>
 			</action>
 		</keybind>
 	</keyboard>

@@ -19,7 +19,7 @@ if !exists("g:nobundles")
 	Plugin 'qwertologe/nextval.vim'
 	Plugin 'rking/ag.vim'
 	Plugin 'scrooloose/nerdcommenter'
-	Plugin 'scrooloose/syntastic'
+	Plugin 'vim-syntastic/syntastic'
 	Plugin 't9md/vim-textmanip'
 	Plugin 'tmhedberg/matchit'
 	Plugin 'tomtom/tlib_vim'

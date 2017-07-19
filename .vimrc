@@ -146,11 +146,9 @@ let g:ycm_show_diagnostics_ui = 0
 let g:syntastic_auto_loc_list = 0
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_aggregate_errors = 1
-let g:syntastic_c_checkers = ["gcc", "sparse", "cppcheck", "splint"]
+let g:syntastic_c_checkers = ["gcc", "cppcheck", "splint", "clang_tidy"]
 let g:syntastic_c_compiler = "clang"
 let g:syntastic_c_compiler_options = "-std=c++11 -I/usr/local/include"
-let g:syntastic_c_sparse_exec = "/opt/bin/sparse"
-let g:syntastic_c_sparse_args = "-Wsparse-all -Wno-undef"
 let g:syntastic_c_splint_args = "+posix-lib"
 let g:syntastic_cpp_checkers = ["gcc", "cppcheck"]
 let g:syntastic_cpp_compiler = "clang"

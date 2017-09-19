@@ -14,6 +14,8 @@ if !exists("g:nobundles")
 	Plugin 'junegunn/vim-easy-align'
 	Plugin 'matze/vim-move'
 	Plugin 'michaelzhou999/vmark'
+	Plugin 'inkarkat/vim-ingo-library'
+	Plugin 'inkarkat/vim-mark'
 	" Plugin 'tomtom/tcomment_vim'
 	Plugin 'powerman/vim-plugin-viewdoc'
 	Plugin 'qwertologe/nextval.vim'

@@ -122,15 +122,15 @@
 		<number>9</number>
 		<firstdesk>1</firstdesk>
 		<names>
-			<name>alpha</name>
-			<name>gamma</name>
-			<name>delta</name>
-			<name>lambda</name>
-			<name>ksi</name>
-			<name>pi</name>
-			<name>rho</name>
-			<name>tau</name>
-			<name>omega</name>
+			<name>alpha1</name>
+			<name>gamma2</name>
+			<name>delta3</name>
+			<name>lambda4</name>
+			<name>ksi5</name>
+			<name>pi6</name>
+			<name>rho7</name>
+			<name>tau8</name>
+			<name>omega9</name>
 		</names>
 		<popupTime>700</popupTime>
 		<!-- The number of milliseconds to show the popup for when switching

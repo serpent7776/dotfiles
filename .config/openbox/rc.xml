@@ -568,6 +568,15 @@
 				<command>metalock</command>
 			</action>
 		</keybind>
+		<keybind key="C-S-Escape">
+			<action name="Execute">
+				<startupnotify>
+					<enabled>true</enabled>
+					<name>lxtask</name>
+				</startupnotify>
+				<command>lxtask</command>
+			</action>
+		</keybind>
 		<keybind key="W-C-Escape">
 			<action name="Execute">
 				<startupnotify>

@@ -151,6 +151,7 @@ let g:syntastic_aggregate_errors = 1
 let g:syntastic_c_checkers = ["gcc", "cppcheck", "splint", "clang_tidy"]
 let g:syntastic_c_compiler = "clang"
 let g:syntastic_c_compiler_options = "-std=c++11 -I/usr/local/include"
+let g:syntastic_c_clang_tidy_exec = "clang-tidy40"
 let g:syntastic_c_splint_args = "+posix-lib"
 let g:syntastic_cpp_checkers = ["gcc", "cppcheck"]
 let g:syntastic_cpp_compiler = "clang"

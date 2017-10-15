@@ -158,6 +158,8 @@ let g:syntastic_cpp_compiler = "clang"
 let g:syntastic_cpp_compiler_options = "-std=c++14 -I/usr/local/include"
 let g:syntastic_java_checkers = ["checkstyle"]
 let g:syntastic_javascript_checkers = ["jsl", "jshint"]
+let g:syntastic_html_checkers = ["tidy"]
+let g:syntastic_html_tidy_exec = "tidy5"
 " let g:syntastic_nroff_checkers = ["igor"]
 "Notes:
 let g:notes_directories = ['~/.vim/misc/notes/user']

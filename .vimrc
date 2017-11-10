@@ -239,6 +239,11 @@ imap <C-Tab> <C-T>
 imap <A-a> <C-o>A
 imap <A-;> <C-o>A;
 imap <A-[> <C-O>A<space>{<NL>%o
+imap <A--> _
+imap <A-=> +
+imap <A-8> *
+imap <A-9> (
+imap <A-0> )
 
 "movement:
 noremap ,, ,

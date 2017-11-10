@@ -366,5 +366,3 @@ vmap \s :sort u<LF>
 
 "other:
 map <A-w> :LeaderfBuffer<LF>
-map <S-F1> :ViewDoc 
-map <S-F9> :ConqueTerm

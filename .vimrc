@@ -365,4 +365,5 @@ nnoremap <expr> gc '`[' . strpart(getregtype(), 0, 1) . '`]'
 vmap \s :sort u<LF>
 
 "other:
-map <A-w> :LeaderfBuffer<LF>
+nmap \F :LeaderfFunction<LF>
+nmap <A-w> :LeaderfBuffer<LF>

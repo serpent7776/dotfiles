@@ -1,3 +1,4 @@
+set scripts=false
 set accelerated-compositing=false
 set download-path=~/Downloads
 set editor-command=gvim %s

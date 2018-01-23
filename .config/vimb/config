@@ -35,4 +35,4 @@ shortcut-add wp=http://pl.wikipedia.org/w/index.php?search=$0
 shortcut-add wi=https://en.wiktionary.org/wiki/Special:Search?search=$0
 shortcut-add port=http://www.freshports.org/search.php?query=$0&search=go&num=10&stype=name&method=match&deleted=excludedeleted&start=1&casesensitivity=caseinsensitive
 
-shortcut-default dd
+shortcut-default g

@@ -1,5 +1,5 @@
 set scripts=false
-set accelerated-compositing=false
+set accelerated-compositing=true
 set download-path=~/Downloads
 set pagecache=true
 set editor-command=gvim %s

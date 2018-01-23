@@ -1,6 +1,7 @@
 set scripts=false
 set accelerated-compositing=false
 set download-path=~/Downloads
+set pagecache=true
 set editor-command=gvim %s
 set hint-timeout=0
 set hintkeys=werqfgasdcvbt

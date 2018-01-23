@@ -1,9 +1,9 @@
 alias helpcommand	man
 
-set	filec
-set	autolist = ambiguous
-set	color
-set	colorcat
+set filec
+set autolist = ambiguous
+set color
+set colorcat
 
 setenv LESS        -iR
 setenv LESSSECURE  1

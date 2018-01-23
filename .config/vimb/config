@@ -13,6 +13,7 @@ set x-hint-command=:sh! firefox <C-R>;<CR>
 set webinspector=true
 set strict-ssl=true
 set cookie-accept=origin
+set cookie-expire-time=0
 
 nmap d <C-d>
 nmap u <C-u>

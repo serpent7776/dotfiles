@@ -22,6 +22,7 @@ nmap K <C-u>
 nmap x :q<CR>
 nmap gs gf
 nmap `` ''
+nmap <C-S> :se scripts=true<CR>r
 nnoremap gt :sh! xdotool key --window $VIMB_XID ctrl+shift+l<CR><Esc>
 nnoremap gT :sh! xdotool key --window $VIMB_XID ctrl+shift+h<CR><Esc>
 nnoremap gr gT

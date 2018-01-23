@@ -174,10 +174,10 @@
 		<!-- 'Above', 'Normal', or 'Below' -->
 		<direction>Vertical</direction>
 		<!-- 'Vertical' or 'Horizontal' -->
-		<autoHide>no</autoHide>
-		<hideDelay>300</hideDelay>
+		<autoHide>yes</autoHide>
+		<hideDelay>500</hideDelay>
 		<!-- in milliseconds (1000 = 1 second) -->
-		<showDelay>300</showDelay>
+		<showDelay>500</showDelay>
 		<!-- in milliseconds (1000 = 1 second) -->
 		<moveButton>Middle</moveButton>
 		<!-- 'Left', 'Middle', 'Right' -->

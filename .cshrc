@@ -1,4 +1,13 @@
-alias helpcommand	man
+alias d           dirs -v
+alias h           history 100
+alias helpcommand man
+alias info-k      info --apropos=
+alias j           jobs -l
+alias la          ls -a
+alias lf          ls -FA
+alias ll          ls -lA
+alias now         date +%Y-%m-%dT%H:%M
+alias view        vim -R
 
 set filec
 set autolist = ambiguous

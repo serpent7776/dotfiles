@@ -1,3 +1,4 @@
+alias ,gs         git status
 alias d           dirs -v
 alias h           history 100
 alias helpcommand man

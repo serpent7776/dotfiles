@@ -350,10 +350,10 @@ map <C-S-k9> <Plug>MarkSearchGroup9Prev
 map \c. <Plug>NERDComInsertComment
 map ]d <Plug>(textmanip-duplicate-down)
 map [d <Plug>(textmanip-duplicate-up)
-vmap <A-j> <Plug>(textmanip-move-down)
-vmap <A-k> <Plug>(textmanip-move-up)
-vmap <A-h> <Plug>(textmanip-move-left)
-vmap <A-l> <Plug>(textmanip-move-right)
+map <A-j> <Plug>(textmanip-move-down)
+map <A-k> <Plug>(textmanip-move-up)
+map <A-h> <Plug>(textmanip-move-left)
+map <A-l> <Plug>(textmanip-move-right)
 vmap <Enter> <Plug>(EasyAlign)
 nmap ,a <Plug>(EasyAlign)
 nnoremap <expr> gc '`[' . strpart(getregtype(), 0, 1) . '`]'

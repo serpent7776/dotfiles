@@ -206,6 +206,7 @@ let g:Lf_WildIgnore = {
 			\ 'file': ['*.sw?', '~$*', '*.bak', '*.exe', '*.o', '*.so', '*.py[co]']
 			\}
 let g:Lf_ShortcutB = '<leader><S-b>'
+let g:Lf_WorkingDirectoryMode="A"
 "CommandT:
 let g:CommandTFileScanner = 'git'
 let g:CommandTGitScanSubmodules = 1

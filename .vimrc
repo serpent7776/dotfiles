@@ -312,7 +312,8 @@ map <A-Right> :tabm +1<LF>
 map <A-Home> :tabm 0<LF>
 map <A-End> :tabm 100<LF>
 
-"buffers:
+"switching buffers:
+nmap <A-b> :LeaderfBuffer<LF>
 map <A-,> :bp<LF>
 map <A-.> :bn<LF>
 
@@ -366,4 +367,3 @@ vmap \s :sort u<LF>
 
 "other:
 nmap \F :LeaderfFunction<LF>
-nmap <A-w> :LeaderfBuffer<LF>

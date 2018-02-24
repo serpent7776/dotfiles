@@ -216,6 +216,8 @@ let g:CommandTGitScanSubmodules = 1
 " let g:CommandTWildIgnore = &wildignore . ''
 "CamelCaseMotion:
 call camelcasemotion#CreateMotionMappings('<leader>')
+"Shell:
+let g:shell_mappings_enabled = 0
 
 "commands
 command -nargs=1 -complete=file E	tabe <args>

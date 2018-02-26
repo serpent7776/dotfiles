@@ -24,8 +24,6 @@ if !exists("g:nobundles")
 	Plugin 't9md/vim-textmanip'
 	Plugin 'tommcdo/vim-exchange'
 	Plugin 'tmhedberg/matchit'
-	Plugin 'tomtom/tlib_vim'
-	Plugin 'tomtom/checksyntax_vim'
 	Plugin 'tpope/vim-surround'
 	Plugin 'tpope/vim-fugitive'
 	Plugin 'gregsexton/gitv'

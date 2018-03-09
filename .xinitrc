@@ -5,6 +5,7 @@ xrandr -r 75
 dbus-launch
 [ -f ~/.Xresources ] && xrdb -merge ~/.Xresources
 # xmodmap ~/.xmodmap-`hostname`
+stalonetray &
 clipit &
 qlipper &
 xcompmgr -ncC &

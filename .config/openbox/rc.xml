@@ -550,6 +550,14 @@
 				<command>xterm tmux</command>
 			</action>
 		</keybind>
+		<keybind key="W-f">
+			<action name="Execute">
+				<startupnotify>
+					<name>xterm ranger</name>
+				</startupnotify>
+				<command>xterm ranger</command>
+			</action>
+		</keybind>
 		<keybind key="W-e">
 			<action name="Execute">
 				<startupnotify>

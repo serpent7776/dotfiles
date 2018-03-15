@@ -45,7 +45,6 @@ if !exists("g:nobundles")
 	Plugin 'mbbill/undotree'
 	" Plugin 'haya14busa/incsearch.vim'
 	" Plugin 'vimspell'
-	" Plugin 'waiting-for-dev/vim-www'
 	Plugin 'tikhomirov/vim-glsl'
 	Plugin 'nickhutchinson/vim-cmake-syntax'
 	Plugin 'kelwin/vim-smali'

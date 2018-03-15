@@ -181,7 +181,7 @@ let g:airline#extensions#default#layout = [
 	\ ]
 let g:airline#extensions#branch#enabled = 1
 let g:airline#extensions#branch#use_vcscommand = 0
-let g:airline#extensions#syntastic#enabled = 1
+let g:airline#extensions#syntastic#enabled = 0
 let g:airline#extensions#tagbar#enabled = 0
 let g:airline#extensions#csv#enabled = 0
 let g:airline#extensions#hunks#enabled = 1

@@ -363,5 +363,11 @@ nmap ,a <Plug>(EasyAlign)
 nnoremap <expr> gc '`[' . strpart(getregtype(), 0, 1) . '`]'
 vmap \s :sort u<LF>
 
+"io:
+imap <A-w> :up<LF>
+nmap <A-w> :up<LF>
+imap <A-q> :x<LF>
+nmap <A-q> :x<LF>
+
 "other:
 nmap \F :LeaderfFunction<LF>

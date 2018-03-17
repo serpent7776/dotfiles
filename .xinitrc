@@ -8,7 +8,7 @@ dbus-launch
 dunst &
 stalonetray &
 clipit &
-qlipper &
+copyq &
 xcompmgr -ncC &
 feh --no-fehbg --bg-center ~/var/wallpapers/`frand ~/var/wallpapers`
 openbox &

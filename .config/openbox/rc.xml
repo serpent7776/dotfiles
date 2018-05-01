@@ -537,9 +537,9 @@
 			<action name="Execute">
 				<startupnotify>
 					<enabled>true</enabled>
-					<name>st</name>
+					<name>lilyterm</name>
 				</startupnotify>
-				<command>st</command>
+				<command>lilyterm</command>
 			</action>
 		</keybind>
 		<keybind key="W-Return">

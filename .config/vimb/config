@@ -39,5 +39,7 @@ shortcut-add yt=https://www.youtube.com/results?search_query=$0
 shortcut-add ud=http://www.urbandictionary.com/define.php?term=$0
 shortcut-add cppref=http://en.cppreference.com/mwiki/index.php?title=Special%3ASearch&search=$0
 shortcut-add crawl=http://crawl.chaosforge.org/$0
+shortcut-add distro=http://distrowatch.com/table.php?distribution=$0
+shortcut-add genius=https://genius.com/search?q=$0
 
 shortcut-default g

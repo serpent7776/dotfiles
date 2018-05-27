@@ -621,6 +621,15 @@
 				<command>rofi -modi window,windowcd -show window</command>
 			</action>
 		</keybind>
+		<keybind key="C-S-A">
+			<action name="Execute">
+				<startupnotify>
+					<enabled>false</enabled>
+					<name>clip-dmenu</name>
+				</startupnotify>
+				<command>clip-dmenu.pl</command>
+			</action>
+		</keybind>
 	</keyboard>
 	<mouse>
 		<dragThreshold>1</dragThreshold>

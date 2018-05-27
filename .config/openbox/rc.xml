@@ -524,13 +524,13 @@
 				<command>rofi -modi run,drun,ssh -show run</command>
 			</action>
 		</keybind>
-		<keybind key="W-C-x">
+		<keybind key="W-S-Return">
 			<action name="Execute">
 				<startupnotify>
 					<enabled>true</enabled>
-					<name>mrxvt</name>
+					<name>st</name>
 				</startupnotify>
-				<command>roxterm --geometry 105x55-0+0</command>
+				<command>st</command>
 			</action>
 		</keybind>
 		<keybind key="W-S-x">
@@ -545,9 +545,9 @@
 		<keybind key="W-Return">
 			<action name="Execute">
 				<startupnotify>
-					<name>xterm</name>
+					<name>st</name>
 				</startupnotify>
-				<command>xterm tmux</command>
+				<command>st tmux</command>
 			</action>
 		</keybind>
 		<keybind key="W-f">

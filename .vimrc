@@ -370,3 +370,5 @@ nmap <A-q> :x<LF>
 
 "other:
 nmap \F :LeaderfFunction<LF>
+nmap ,gd :Gdiff<LF>
+nmap ,gc :Gcommit<LF>

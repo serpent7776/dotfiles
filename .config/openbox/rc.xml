@@ -627,7 +627,7 @@
 					<enabled>false</enabled>
 					<name>clip-dmenu</name>
 				</startupnotify>
-				<command>clip-dmenu.pl</command>
+				<command>clip-dmenu.pl -b -c 'rofi -dmenu'</command>
 			</action>
 		</keybind>
 	</keyboard>

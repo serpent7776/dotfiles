@@ -562,9 +562,9 @@
 			<action name="Execute">
 				<startupnotify>
 					<enabled>true</enabled>
-					<name>qtfm</name>
+					<name>pcmanfm</name>
 				</startupnotify>
-				<command>qtfm</command>
+				<command>pcmanfm</command>
 			</action>
 		</keybind>
 		<keybind key="W-l">

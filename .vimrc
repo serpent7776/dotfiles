@@ -67,6 +67,7 @@ set updatetime=7500
 set encoding=utf-8
 
 "syntax, highlighting and ui
+set rnu
 set nu
 set bg=dark
 set cursorline

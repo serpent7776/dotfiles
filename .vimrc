@@ -373,3 +373,4 @@ nmap <A-q> :x<LF>
 nmap \F :LeaderfFunction<LF>
 nmap ,gd :Gdiff<LF>
 nmap ,gc :Gcommit<LF>
+nmap ,gw :Gwrite<LF>

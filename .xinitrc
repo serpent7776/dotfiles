@@ -1,5 +1,6 @@
 #!/bin/sh
 xset r rate 250 25
+xset m 3 5
 setxkbmap pl
 xrandr -r 75
 dbus-launch

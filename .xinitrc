@@ -7,7 +7,6 @@ dbus-launch
 # xmodmap ~/.xmodmap-`hostname`
 dunst &
 stalonetray &
-clipit &
 copyq &
 xcompmgr -ncC &
 feh --no-fehbg --bg-center ~/var/wallpapers/`frand ~/var/wallpapers`

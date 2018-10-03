@@ -557,7 +557,7 @@
 				<startupnotify>
 					<name>xterm ranger</name>
 				</startupnotify>
-				<command>xterm ranger</command>
+				<command>xterm -T ranger -e ranger</command>
 			</action>
 		</keybind>
 		<keybind key="W-e">

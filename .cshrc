@@ -30,6 +30,7 @@ bindkey '\e[1;5D' backward-word		# ctrl left
 bindkey "^[," backward-word		# Alt-,
 bindkey "^[." forward-word		# Alt-.
 bindkey "^R" i-search-back
+bindkey -b M-. insert-last-word
 bindkey -b M-g list-glob
 bindkey -b M-x newline-and-hold
 bindkey -s -b M-r "rehash\n"

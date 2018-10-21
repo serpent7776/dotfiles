@@ -376,3 +376,4 @@ nmap ,gd :Gdiff<LF>
 nmap ,gc :Gcommit<LF>
 nmap ,gw :Gwrite<LF>
 nmap ,gb :Gblame<LF>
+imap <A-l> <Plug>CapsLockToggle

@@ -606,7 +606,7 @@
 				<command>/opt/bin/maim-dmenu.sh</command>
 			</action>
 		</keybind>
-		<keybind key="W-Tab">
+		<keybind key="W-S-Tab">
 			<action name="Execute">
 				<startupnotify>
 					<enabled>false</enabled>
@@ -614,6 +614,9 @@
 				</startupnotify>
 				<command>rofi -modi window,windowcd -show window</command>
 			</action>
+		</keybind>
+		<keybind key="W-Tab">
+			<action name="NextWindow" />
 		</keybind>
 		<keybind key="C-S-A">
 			<action name="Execute">

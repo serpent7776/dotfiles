@@ -508,7 +508,7 @@
 				<command>dmenu_run</command>
 			</action>
 		</keybind>
-		<keybind key="W-S-grave">
+		<keybind key="W-C-grave">
 			<action name="Execute">
 				<startupnotify>
 					<enabled>true</enabled>
@@ -517,7 +517,7 @@
 				<command>gmrun</command>
 			</action>
 		</keybind>
-		<keybind key="W-C-grave">
+		<keybind key="W-S-grave">
 			<action name="Execute">
 				<startupnotify>
 					<enabled>true</enabled>

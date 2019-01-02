@@ -22,6 +22,8 @@ settings:
         x: tab-close
         xO: null
         xo: null
+  fonts.hints:
+    global: bold 10pt DejaVu
   fonts.tabs:
     global: 10pt DejaVu
   scrolling.smooth:

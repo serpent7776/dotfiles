@@ -598,19 +598,11 @@
 		</keybind>
 		<keybind key="Print">
 			<action name="Execute">
-				<startupnotify>
-					<enabled>true</enabled>
-					<name>snapshot</name>
-				</startupnotify>
 				<command>scrot -e "feh $f" /tmp/%Y_%m_%d-%H_%M_%S.png</command>
 			</action>
 		</keybind>
 		<keybind key="S-Print">
 			<action name="Execute">
-				<startupnotify>
-					<enabled>true</enabled>
-					<name>snapshot</name>
-				</startupnotify>
 				<command>/opt/bin/maim-dmenu.sh</command>
 			</action>
 		</keybind>

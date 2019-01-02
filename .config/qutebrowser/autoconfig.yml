@@ -28,6 +28,8 @@ settings:
     global: 10pt DejaVu
   scrolling.smooth:
     global: false
+  session.lazy_restore:
+    global: true
   tabs.background:
     global: true
   tabs.close_mouse_button:

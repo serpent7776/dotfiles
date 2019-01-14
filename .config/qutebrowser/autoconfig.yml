@@ -40,4 +40,9 @@ settings:
     global:
       DEFAULT: https://duckduckgo.com/?q={}
       we: http://en.wikipedia.org/wiki/Special:Search?search={}
+      wp: http://pl.wikipedia.org/w/index.php?search={}
+      wi: https://en.wiktionary.org/wiki/Special:Search?search={}
       yt: https://www.youtube.com/results?search_query={}
+      alt: http://alternativeto.net/browse/search?q={}
+      port: http://www.freshports.org/search.php?query={}&search=go&num=10&stype=name&method=match&deleted=excludedeleted&start=1&casesensitivity=caseinsensitive
+      cppref: http://en.cppreference.com/mwiki/index.php?title=Special%3ASearch&search={}

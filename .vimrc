@@ -372,6 +372,8 @@ nmap <A-q> :x<LF>
 
 "other:
 nmap \F :LeaderfFunction<LF>
+nmap \gl :LeaderfLineCword<LF>
+nmap \gL :LeaderfLinePattern<Space>
 nmap ,gd :Gdiff<LF>
 nmap ,gc :Gcommit<LF>
 nmap ,gw :Gwrite<LF>

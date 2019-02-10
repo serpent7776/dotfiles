@@ -33,7 +33,7 @@ if !exists("g:nobundles")
 	Plugin 'xolox/vim-misc'
 	Plugin 'xolox/vim-shell'
 	Plugin 'xolox/vim-notes'
-	Plugin 'airblade/vim-gitgutter'
+	Plugin 'mhinz/vim-signify'
 	Plugin 'vim-airline/vim-airline'
 	Plugin 'vim-airline/vim-airline-themes'
 	Plugin 'Shougo/vimproc.vim'

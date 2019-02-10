@@ -219,7 +219,7 @@ call camelcasemotion#CreateMotionMappings('<leader>')
 let g:shell_mappings_enabled = 0
 
 "commands
-command -nargs=1 -complete=file E	tabe <args>
+command! -nargs=1 -complete=file E	tabe <args>
 
 "autocommands:
 

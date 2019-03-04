@@ -1,5 +1,8 @@
-alias ,gs         git status
 alias ,gd         git diff
+alias ,gs         git status
+alias ,t          task
+alias view        vim -R
+alias p           "$PAGER"
 alias d           dirs -v
 alias h           history 100
 alias helpcommand man
@@ -9,7 +12,6 @@ alias la          ls -a
 alias lf          ls -FA
 alias ll          ls -lA
 alias now         date +%Y-%m-%dT%H:%M
-alias view        vim -R
 
 set filec
 set autolist = ambiguous

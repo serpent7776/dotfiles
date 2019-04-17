@@ -214,7 +214,7 @@ let g:CommandTFileScanner = 'git'
 let g:CommandTGitScanSubmodules = 1
 " let g:CommandTWildIgnore = &wildignore . ''
 "CamelCaseMotion:
-call camelcasemotion#CreateMotionMappings('<leader>')
+call camelcasemotion#CreateMotionMappings(',')
 "Shell:
 let g:shell_mappings_enabled = 0
 

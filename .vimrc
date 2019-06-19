@@ -57,7 +57,7 @@ if !exists("g:nobundles")
 endif
 
 "security
-set modeline
+set nomodeline
 
 "writing files
 "set backup

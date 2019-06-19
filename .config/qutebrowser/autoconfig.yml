@@ -38,6 +38,8 @@ settings:
     global: none
   tabs.new_position.unrelated:
     global: next
+  tabs.select_on_remove:
+    global: last-used
   url.searchengines:
     global:
       DEFAULT: https://duckduckgo.com/?q={}

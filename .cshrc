@@ -1,7 +1,13 @@
+alias ,chbg       'feh --no-fehbg --bg-center `frand ~/var/wallpapers/`'
+alias ,g          git
 alias ,gd         git diff
 alias ,gs         git status
+alias ,pkgv       'pkg version -o -l \< | awk '\''{print $1}'\'' | tee /tmp/ports | sort'
 alias ,t          task
+
 alias view        vim -R
+alias gti         env GTI_SPEED=776 gti
+
 alias p           "$PAGER"
 alias d           dirs -v
 alias h           history 100

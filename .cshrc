@@ -29,6 +29,8 @@ setenv LESSSECURE  1
 
 # bindkey -v
 bindkey "^W" backward-delete-word
+bindkey "^P" history-search-backward
+bindkey "^N" history-search-forward
 bindkey -k up history-search-backward
 bindkey -k down history-search-forward
 bindkey "\e[3~" delete-char		# delete

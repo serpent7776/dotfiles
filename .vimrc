@@ -298,6 +298,7 @@ vmap \d "+d
 vmap \p "+p
 vmap \P "+P
 imap <S-Insert> <C-R>*
+nmap ,p \o\p
 
 "tabs:
 map gr gT
@@ -326,7 +327,7 @@ map <A-.> :bn<LF>
 
 "searching and highlighting
 map <Space>nh :noh<LF>
-nmap <C-l> :noh<LF>:diffupdate<LF>:redraw!<LF>
+nmap <C-l> :noh<LF>:diffupdate<LF>:SignifyRefresh<LF>:redraw!<LF>
 nmap ]<space> /\s\+$<LF>
 nmap [<space> ?\s\+$<LF>
 nmap ,mm <Plug>VMarkToggle

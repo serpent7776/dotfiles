@@ -100,8 +100,8 @@ hc keybind $Mod-comma  use_index -1 --skip-visible
 hc keybind $Mod-minus  use_previous
 
 # layouting
-# hc keybind $Mod-q remove
-hc keybind $Mod-f floating toggle
+hc keybind $Mod-r remove
+hc keybind $Mod-a floating toggle
 hc keybind $Mod-s fullscreen toggle
 hc keybind $Mod-p pseudotile toggle
 # The following cycles through the available layouts within a frame, but skips
@@ -111,6 +111,10 @@ hc keybind $Mod-space                                                           
             or , and . compare tags.focus.curframe_wcount = 2                   \
                      . cycle_layout +1 vertical horizontal max vertical grid    \
                , cycle_layout +1
+
+hc keybind $Mod-semicolon set_layout vertical
+hc keybind $Mod-apostrophe set_layout horizontal
+hc keybind $Mod-backslash set_layout max
 
 # mouse
 hc mouseunbind --all

@@ -93,8 +93,11 @@ for i in ${!tag_names[@]} ; do
 done
 
 # cycle through tags
+hc keybind $AMod-bracketright use_index +1 --skip-visible
+hc keybind $AMod-bracketleft  use_index -1 --skip-visible
 hc keybind $Mod-period use_index +1 --skip-visible
 hc keybind $Mod-comma  use_index -1 --skip-visible
+hc keybind $Mod-minus  use_previous
 
 # layouting
 # hc keybind $Mod-q remove

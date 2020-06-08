@@ -25,13 +25,18 @@ AMod=Mod1  # alternative mod
 # hc keybind $Mod-Shift-q quit
 hc keybind $Mod-Shift-r reload
 hc keybind $Mod-q close
-hc keybind $Mod-Return spawn ${TERMINAL:-xterm} # use your $TERMINAL with xterm as fallback
+hc keybind $Mod-Return spawn st tmux
+hc keybind $Mod-Shift-Return spawn st
 hc keybind $Mod-grave spawn dmenu_run
-hc keybind $Mod-Shift-grave spawn rofi -modi drun -show drun
-hc keybind $Mod-Tab spawn rofi -modi window -show window
+hc keybind $Mod-Shift-grave spawn rofi -modi drun -show drun -matching fuzzy
+hc keybind $Mod-Shift-Tab spawn rofi -modi window -show window -matching fuzzy
+hc keybind $Mod-BackSpace spawn metalock
 hc keybind $Mod-e spawn pcmanfm
-hc keybind $Mod-f spawn xterm -T ranger -e ranger
-hc keybind Ctrl-Shift-a spawn /home/user/data/git/clip-dmenu/clip-dmenu.pl
+hc keybind $Mod-f spawn st -T ranger -e ranger
+hc keybind Ctrl-Shift-a spawn clip-dmenu.pl -b -c 'rofi -dmenu'
+hc keybind Print spawn scrot -e 'feh $f' /tmp/%Y_%m_%d-%H_%M_%S.png
+hc keybind Ctrl-Print spawn scrot -u -e 'feh $f' /tmp/%Y_%m_%d-%H_%M_%S.png
+hc keybind Shift-Print spawn /opt/bin/maim-dmenu.sh
 
 # basic movement
 # focusing clients

@@ -123,10 +123,11 @@ hc mousebind $AMod-Button2 zoom
 hc mousebind $AMod-Button3 resize
 
 # focus
-hc keybind $Mod-BackSpace   cycle_monitor
+# hc keybind $Mod-BackSpace   cycle_monitor
+hc keybind $Mod-Tab         cycle_all +1
 hc keybind $AMod-Tab         cycle_all +1
 hc keybind $AMod-Shift-Tab   cycle_all -1
-hc keybind $Mod-c cycle
+# hc keybind $Mod-c cycle
 hc keybind $Mod-i jumpto urgent
 
 # theme

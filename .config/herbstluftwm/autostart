@@ -118,9 +118,9 @@ hc keybind $Mod-backslash set_layout max
 
 # mouse
 hc mouseunbind --all
-hc mousebind $Mod-Button1 move
-hc mousebind $Mod-Button2 zoom
-hc mousebind $Mod-Button3 resize
+hc mousebind $AMod-Button1 move
+hc mousebind $AMod-Button2 zoom
+hc mousebind $AMod-Button3 resize
 
 # focus
 hc keybind $Mod-BackSpace   cycle_monitor

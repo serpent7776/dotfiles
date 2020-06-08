@@ -383,6 +383,8 @@ nmap <A-q> :x<LF>
 nmap \F :LeaderfFunction<LF>
 nmap \gl :LeaderfLineCword<LF>
 nmap \gL :LeaderfLinePattern<Space>
+nmap \gr :LeaderfTagPattern<Space>
+nmap \gw :LeaderfTagCword<LF>
 nmap ,gd :Gdiff<LF>
 nmap ,gc :Gcommit<LF>
 nmap ,gw :Gwrite<LF>

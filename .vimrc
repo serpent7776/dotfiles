@@ -38,6 +38,7 @@ if !exists("g:nobundles")
 	Plugin 'ycm-core/YouCompleteMe'
 	Plugin 'SirVer/ultisnips'
 	Plugin 'honza/vim-snippets'
+	Plugin 'serpent7776/my-snippets'
 	Plugin 'mbbill/undotree'
 	Plugin 'tikhomirov/vim-glsl'
 	Plugin 'nickhutchinson/vim-cmake-syntax'

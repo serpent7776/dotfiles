@@ -35,7 +35,7 @@ if !exists("g:nobundles")
 	Plugin 'Shougo/vimproc.vim'
 	Plugin 'joonty/vdebug'
 	Plugin 'Konfekt/FastFold'
-	Plugin 'Shougo/neocomplete.vim'
+	Plugin 'ycm-core/YouCompleteMe'
 	Plugin 'SirVer/ultisnips'
 	Plugin 'honza/vim-snippets'
 	Plugin 'mbbill/undotree'

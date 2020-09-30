@@ -16,7 +16,6 @@ if !exists("g:nobundles")
 	Plugin 'inkarkat/vim-ingo-library'
 	Plugin 'inkarkat/vim-mark'
 	" Plugin 'tomtom/tcomment_vim'
-	Plugin 'qwertologe/nextval.vim'
 	Plugin 'rking/ag.vim'
 	Plugin 'scrooloose/nerdcommenter'
 	Plugin 'w0rp/ale'

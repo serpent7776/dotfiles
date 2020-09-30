@@ -322,8 +322,15 @@ map <A-Right> :tabm +1<LF>
 map <A-Home> :tabm 0<LF>
 map <A-End> :tabm 100<LF>
 
-"switching buffers:
+"jumping buffers/tags/lines:
 nmap <A-b> :LeaderfBuffer<LF>
+nmap \F :LeaderfFunction<LF>
+nmap \gf :LeaderfFilePattern<Space>
+nmap \gl :LeaderfLineCword<LF>
+nmap \gL :LeaderfLinePattern<Space>
+nmap \gr :LeaderfTagPattern<Space>
+nmap \gw :LeaderfTagCword<LF>
+nmap \gb :LeaderfBuffer<LF>
 
 "searching and highlighting
 map <Space>nh :noh<LF>
@@ -379,14 +386,12 @@ nmap <A-w> :up<LF>
 imap <A-q> :x<LF>
 nmap <A-q> :x<LF>
 
+"changing options:
+nmap ,'d :diffof<LF>
+nmap ,'s :setl spell!<LF>
+nmap ,'r :setl rnu!<LF>
+
 "other:
-nmap \F :LeaderfFunction<LF>
-nmap \gf :LeaderfFilePattern<Space>
-nmap \gl :LeaderfLineCword<LF>
-nmap \gL :LeaderfLinePattern<Space>
-nmap \gr :LeaderfTagPattern<Space>
-nmap \gw :LeaderfTagCword<LF>
-nmap \gb :LeaderfBuffer<LF>
 nmap ,gd :Gdiff<LF>
 nmap ,gc :Gcommit<LF>
 nmap ,gw :Gwrite<LF>
@@ -394,6 +399,3 @@ nmap ,gb :Gblame<LF>
 nmap ,gs :Gstatus<LF>
 imap <A-l> <Plug>CapsLockToggle
 nmap ,q :q<LF>
-nmap ,'d :diffof<LF>
-nmap ,'s :setl spell!<LF>
-nmap ,'r :setl rnu!<LF>

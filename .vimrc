@@ -204,6 +204,7 @@ let g:Lf_WildIgnore = {
 			\ 'file': ['*.sw?', '~$*', '*.bak', '*.exe', '*.o', '*.so', '*.py[co]']
 			\}
 let g:Lf_ShortcutB = '<leader><S-b>'
+let g:Lf_ShowDevIcons=0
 let g:Lf_WorkingDirectoryMode="A"
 "CommandT:
 let g:CommandTFileScanner = 'git'
@@ -213,6 +214,8 @@ let g:CommandTGitScanSubmodules = 1
 call camelcasemotion#CreateMotionMappings(',')
 "Shell:
 let g:shell_mappings_enabled = 0
+"UltiSnips:
+let g:UltiSnipsEditSplit="context"
 "Ale:
 let g:ale_completion_enabled=1
 let g:ale_cpp_clang_options="-std=c++17 -Wall -Wextra -pedantic -I /usr/local/include"
@@ -323,8 +326,6 @@ map <A-End> :tabm 100<LF>
 
 "switching buffers:
 nmap <A-b> :LeaderfBuffer<LF>
-map <A-,> :bp<LF>
-map <A-.> :bn<LF>
 
 "searching and highlighting
 map <Space>nh :noh<LF>
@@ -382,13 +383,19 @@ nmap <A-q> :x<LF>
 
 "other:
 nmap \F :LeaderfFunction<LF>
+nmap \gf :LeaderfFilePattern<Space>
 nmap \gl :LeaderfLineCword<LF>
 nmap \gL :LeaderfLinePattern<Space>
 nmap \gr :LeaderfTagPattern<Space>
 nmap \gw :LeaderfTagCword<LF>
+nmap \gb :LeaderfBuffer<LF>
 nmap ,gd :Gdiff<LF>
 nmap ,gc :Gcommit<LF>
 nmap ,gw :Gwrite<LF>
 nmap ,gb :Gblame<LF>
+nmap ,gs :Gstatus<LF>
 imap <A-l> <Plug>CapsLockToggle
+nmap ,q :q<LF>
 nmap ,'d :diffof<LF>
+nmap ,'s :setl spell!<LF>
+nmap ,'r :setl rnu!<LF>

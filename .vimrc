@@ -133,23 +133,6 @@ let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
 let g:ycm_key_list_select_completion = ['<S-CR>', '<Down>']
 let g:ycm_key_list_previous_completion = ['<Up>']
 let g:ycm_show_diagnostics_ui = 0
-"Syntastic:
-let g:syntastic_auto_loc_list = 0
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_aggregate_errors = 1
-let g:syntastic_c_checkers = ["gcc", "cppcheck", "splint", "clang_tidy"]
-let g:syntastic_c_compiler = "clang"
-let g:syntastic_c_compiler_options = "-std=c++11 -I/usr/local/include"
-let g:syntastic_c_clang_tidy_exec = "clang-tidy40"
-let g:syntastic_c_splint_args = "+posix-lib"
-let g:syntastic_cpp_checkers = ["gcc", "cppcheck"]
-let g:syntastic_cpp_compiler = "clang"
-let g:syntastic_cpp_compiler_options = "-std=c++14 -I/usr/local/include"
-let g:syntastic_java_checkers = ["checkstyle"]
-let g:syntastic_javascript_checkers = ["jsl", "jshint"]
-let g:syntastic_html_checkers = ["tidy"]
-let g:syntastic_html_tidy_exec = "tidy5"
-" let g:syntastic_nroff_checkers = ["igor"]
 "Notes:
 let g:notes_directories = ['~/.vim/misc/notes/user']
 let g:notes_shadowdir= '~/.vim/misc/notes/shadow'
@@ -164,30 +147,6 @@ let g:www_urls = {
      \ 'g?' : 'https://www.google.com/search?q=',
      \ }
 let g:www_default_search_engine = 'g?'
-"Airline:
-let g:airline_theme='serene'
-let g:airline_left_sep = '»'
-let g:airline_right_sep = '«'
-let g:airline#extensions#disable_rtp_load = 1
-let g:airline#extensions#default#layout = [
-	\ [ 'a', 'c' ],
-	\ [ 'x', 'y', 'b', 'z', 'warning' ]
-	\ ]
-let g:airline#extensions#branch#enabled = 1
-let g:airline#extensions#branch#use_vcscommand = 0
-let g:airline#extensions#syntastic#enabled = 0
-let g:airline#extensions#tagbar#enabled = 0
-let g:airline#extensions#csv#enabled = 0
-let g:airline#extensions#hunks#enabled = 1
-let g:airline#extensions#virtualenv#enabled = 0
-let g:airline#extensions#eclim#enabled = 0
-let g:airline#extensions#whitespace#enabled = 0
-let g:airline#extensions#tabline#enabled = 0
-let g:airline#extensions#tmuxline#enabled = 0
-let g:airline#extensions#promptline#enabled = 0
-let g:airline#extensions#nrrwrgn#enabled = 0
-let g:airline#extensions#capslock#enabled = 0
-let g:airline#extensions#windowswap#enabled = 0
 "Neocomplete:
 let g:neocomplete#enable_at_startup = 1
 let g:neocomplete#enable_fuzzy_completion = 1
@@ -195,7 +154,7 @@ let g:neocomplete#enable_smart_case = 1
 let g:neocomplete#auto_completion_start_length = 3
 let g:neocomplete#manual_completion_start_length = 2
 let g:neocomplete#sources#syntax#min_keyword_length = 3
-" LeaderF
+"LeaderF:
 let g:Lf_Ctags='uctags'
 let g:Lf_WildIgnore = {
 			\ 'dir': ['.svn', '.git', 'build', '.gradle', '.idea', 'libs', 'assets'],
@@ -333,7 +292,6 @@ nmap \gw :LeaderfTagCword<LF>
 nmap \gb :LeaderfBuffer<LF>
 
 "searching and highlighting
-map <Space>nh :noh<LF>
 nmap <C-l> :noh<LF>:diffupdate<LF>:SignifyRefresh<LF>:redraw!<LF>
 nmap ]<space> /\s\+$<LF>
 nmap [<space> ?\s\+$<LF>

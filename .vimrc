@@ -39,8 +39,6 @@ if !exists("g:nobundles")
 	Plugin 'SirVer/ultisnips'
 	Plugin 'honza/vim-snippets'
 	Plugin 'mbbill/undotree'
-	" Plugin 'haya14busa/incsearch.vim'
-	" Plugin 'vimspell'
 	Plugin 'tikhomirov/vim-glsl'
 	Plugin 'nickhutchinson/vim-cmake-syntax'
 	Plugin 'kelwin/vim-smali'

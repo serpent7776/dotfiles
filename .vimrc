@@ -177,9 +177,7 @@ let g:UltiSnipsEditSplit="context"
 "Ale:
 let g:ale_completion_enabled=1
 let g:ale_cpp_clang_options="-std=c++17 -Wall -Wextra -pedantic -I /usr/local/include"
-let g:ale_cpp_clangd_executable="clangd80"
 " let g:ale_cpp_clangd_options="-std=c++17 -Wall -Wextra -pedantic -I /usr/local/include"
-let g:ale_cpp_clangtidy_executable="clang-tidy80"
 let g:ale_cpp_clangtidy_options="-std=c++17 -I /usr/local/include"
 let g:ale_cpp_gcc_options="-std=c++17 -I /usr/local/include"
 let g:ale_linters={

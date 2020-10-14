@@ -40,6 +40,8 @@ if !exists("g:nobundles")
 	Plugin 'honza/vim-snippets'
 	Plugin 'serpent7776/my-snippets'
 	Plugin 'mbbill/undotree'
+	Plugin 'prabirshrestha/vim-lsp'
+	Plugin 'mattn/vim-lsp-settings'
 	Plugin 'tikhomirov/vim-glsl'
 	Plugin 'nickhutchinson/vim-cmake-syntax'
 	Plugin 'kelwin/vim-smali'

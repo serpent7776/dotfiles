@@ -235,6 +235,7 @@ imap <C-Up> 5k
 nmap <C-Down> 5j
 vmap <C-Down> 5j
 imap <C-Down> 5j
+nnoremap <C-k> k
 map <Space>j 5j
 map <Space>k 5k
 map <Home> ^
@@ -267,6 +268,7 @@ nmap ,p \o\p
 
 "tabs:
 map gr gT
+nnoremap \t :tabs<LF>
 nmap <C-Insert> :tabnew<LF>
 map <A-1> :tabn 1<LF>
 map <A-2> :tabn 2<LF>
@@ -303,6 +305,7 @@ nmap ,mm <Plug>VMarkToggle
 nmap ,mn <Plug>VMarkNext
 nmap ,mN <Plug>VMarkPrevious
 nmap ,mc <Plug>VMarkClearAll
+nmap <Space>m<Space> <Plug>MarkSet
 nmap <Space>mm <Plug>MarkSet
 nmap <Space>mr <Plug>MarkRegex
 nmap <Space>mn <Plug>MarkSearchCurrentNext
@@ -355,7 +358,7 @@ nmap ,'r :setl rnu!<LF>
 
 "other:
 nmap ,gd :Gdiff<LF>
-nmap ,gc :Gcommit<LF>
+nmap ,gc :Git commit<LF>
 nmap ,gw :Gwrite<LF>
 nmap ,gb :Gblame<LF>
 nmap ,gs :Gstatus<LF>

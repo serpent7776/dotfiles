@@ -56,9 +56,9 @@ endif
 "security
 set nomodeline
 
+"reading files
+set autoread
 "writing files
-"set backup
-"set writebackup
 set updatecount=250
 set updatetime=7500
 set encoding=utf-8

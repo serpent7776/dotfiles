@@ -199,7 +199,6 @@ command! -nargs=1 -complete=file E	tabe <args>
 "Mappings:
 "misc:
 map ,; :
-map \q :bd<LF>
 map \o o<ESC>
 map \O O<ESC>
 nmap \Ss <Plug>VimchantSpellCheckSwitch
@@ -265,6 +264,11 @@ vmap \p "+p
 vmap \P "+P
 imap <S-Insert> <C-R>*
 nmap ,p \o\p
+
+"buffers:
+nnoremap <C-n> :vnew<LF>
+nnoremap \q :bd<LF>
+nnoremap ,q :q<LF>
 
 "tabs:
 map gr gT
@@ -363,4 +367,3 @@ nmap ,gw :Gwrite<LF>
 nmap ,gb :Gblame<LF>
 nmap ,gs :Gstatus<LF>
 imap <A-l> <Plug>CapsLockToggle
-nmap ,q :q<LF>

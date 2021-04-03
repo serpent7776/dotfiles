@@ -191,10 +191,10 @@ let g:ale_linters={
 "VimLSP:
 let g:lsp_signature_help_enabled = 0
 
-"commands
+"Commands:
 command! -nargs=1 -complete=file E	tabe <args>
 
-"autocommands:
+"Autocommands:
 
 "Mappings:
 "misc:

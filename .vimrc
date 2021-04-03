@@ -179,10 +179,11 @@ let g:shell_mappings_enabled = 0
 let g:UltiSnipsEditSplit="context"
 "Ale:
 let g:ale_completion_enabled=1
-let g:ale_cpp_clang_options="-std=c++17 -Wall -Wextra -pedantic -I /usr/local/include"
+let g:ale_cpp_cc_options="-std=c++17 -Wall -Wextra -pedantic -I /usr/local/include"
+" let g:ale_cpp_clang_options="-std=c++17 -Wall -Wextra -pedantic -I /usr/local/include"
 " let g:ale_cpp_clangd_options="-std=c++17 -Wall -Wextra -pedantic -I /usr/local/include"
 let g:ale_cpp_clangtidy_options="-std=c++17 -I /usr/local/include"
-let g:ale_cpp_gcc_options="-std=c++17 -I /usr/local/include"
+" let g:ale_cpp_gcc_options="-std=c++17 -I /usr/local/include"
 let g:ale_linters={
 			\ 'javascript': [],
 			\ 'cpp': ['clang', 'clangtidy', 'clangcheck', 'gcc'],

@@ -202,8 +202,6 @@ command! -nargs=1 -complete=file E	tabe <args>
 map ,; :
 map \o o<ESC>
 map \O O<ESC>
-nmap \Ss <Plug>VimchantSpellCheckSwitch
-nmap \Sl <Plug>VimchantChangeLanguage
 map \M<space> :QuickhlMatch<LF>
 map \Mc :QuickhlMatchClear<LF>
 imap <S-Tab> 

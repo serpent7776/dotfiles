@@ -211,6 +211,7 @@ imap <A-;> <C-o>A;
 imap <A-[> <C-O>A<space>{<NL>%o
 imap <A--> _
 imap <A-=> +
+imap <A-7> &
 imap <A-8> *
 imap <A-9> (
 imap <A-0> )
@@ -308,7 +309,7 @@ nmap ,mm <Plug>VMarkToggle
 nmap ,mn <Plug>VMarkNext
 nmap ,mN <Plug>VMarkPrevious
 nmap ,mc <Plug>VMarkClearAll
-nmap <Space>m<Space> <Plug>MarkSet
+nmap <Space>m, <Plug>MarkSet
 nmap <Space>mm <Plug>MarkSet
 nmap <Space>mr <Plug>MarkRegex
 nmap <Space>mn <Plug>MarkSearchCurrentNext
@@ -366,3 +367,6 @@ nmap ,gw :Gwrite<LF>
 nmap ,gb :Gblame<LF>
 nmap ,gs :Gstatus<LF>
 imap <A-l> <Plug>CapsLockToggle
+nnoremap \ab :ALEToggleBuffer<LF>
+nnoremap \ad :ALEDetail<LF>
+nnoremap \St :SignifyToggle<LF>

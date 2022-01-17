@@ -105,7 +105,6 @@ set virtualedit=block
 "other
 syntax on
 filetype plugin indent on
-set backspace=2
 set spelllang=en,pl
 
 "plugin configuration
@@ -208,7 +207,6 @@ imap <S-Tab> 
 imap <C-Tab> <C-T>
 imap <A-a> <C-o>A
 imap <A-;> <C-o>A;
-imap <A-[> <C-O>A<space>{<NL>%o
 imap <A--> _
 imap <A-=> +
 imap <A-7> &

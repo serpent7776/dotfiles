@@ -232,7 +232,6 @@ imap <C-Up> 5k
 nmap <C-Down> 5j
 vmap <C-Down> 5j
 imap <C-Down> 5j
-nnoremap <C-k> k
 map <Space>j 5j
 map <Space>k 5k
 map <Home> ^
@@ -270,6 +269,8 @@ nnoremap ,q :q<LF>
 
 "tabs:
 map gr gT
+nnoremap <C-K> gt
+nnoremap <C-J> gT
 nnoremap \t :tabs<LF>
 nmap <C-Insert> :tabnew<LF>
 map <A-1> :tabn 1<LF>

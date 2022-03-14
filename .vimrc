@@ -372,12 +372,12 @@ nnoremap \St :SignifyToggle<LF>
 
 if has('gui_running')
 	nnoremap ,tt :!xterm -e tig<LF>
-	nnoremap ,tb :!xterm -e tig blame %<LF>
+	nnoremap ,tb :execute '!xterm -e tig blame +' . line('.') . ' ' . expand('%')<LF>
 	nnoremap ,tl :!xterm -e tig log %<LF>
 	nnoremap ,td :!xterm -e 'git diff % \| tig'<LF>
 else
 	nnoremap ,tt :!tig<LF>
-	nnoremap ,tb :!tig blame %<LF>
+	nnoremap ,tb :execute '!tig blame +' . line('.') . ' ' . expand('%')<LF>
 	nnoremap ,tl :!tig log %<LF>
 	nnoremap ,td :!git diff % \| tig<LF>
 endif

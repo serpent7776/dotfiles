@@ -72,6 +72,7 @@ set hlsearch
 set laststatus=2 " show statusbar
 set showcmd
 set showmode
+set diffopt+=algorithm:patience,indent-heuristic
 colo vish
 
 "displaying text

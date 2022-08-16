@@ -20,7 +20,7 @@ hc keyunbind --all
 # if you have a super key you will be much happier with Mod set to Mod4
 # Mod=Mod1    # Use alt as the main modifier
 Mod=Mod4   # Use the super key as the main modifier
-AMod=Mod1  # alternative mod
+AMod=Mod1  # use alt as alternative mod
 
 # hc keybind $Mod-Shift-q quit
 hc keybind $Mod-Shift-r reload
@@ -30,13 +30,16 @@ hc keybind $Mod-Shift-Return spawn st
 hc keybind $Mod-grave spawn dmenu_run
 hc keybind $Mod-Shift-grave spawn rofi -modi drun -show drun -matching fuzzy
 hc keybind $Mod-Shift-Tab spawn rofi -modi window -show window -matching fuzzy
-hc keybind $Mod-BackSpace spawn metalock
+hc keybind $Mod-BackSpace spawn i3lock -f -c 000000 -t -i ~/var/lockscreen/11241-chii-chobits-clamp.png
 hc keybind $Mod-e spawn pcmanfm
-hc keybind $Mod-f spawn st -T ranger -e ranger
+hc keybind $Mod-f spawn xterm -e ranger
+hc keybind $Mod-g spawn gvim
 hc keybind Ctrl-Shift-a spawn clip-dmenu.pl -b -c 'rofi -dmenu'
 hc keybind Print spawn scrot -e 'feh $f' /tmp/%Y_%m_%d-%H_%M_%S.png
 hc keybind Ctrl-Print spawn scrot -u -e 'feh $f' /tmp/%Y_%m_%d-%H_%M_%S.png
 hc keybind Shift-Print spawn /opt/bin/maim-dmenu.sh
+hc keybind $Mod-slash spawn sh -c 'notify-send "$(xdotool getwindowfocus getwindowname )"'
+hc keybind $Mod-F1 spawn sh -c 'notify-send "$(date "+%a %Y-%m-%d %H:%M:%S")" "$(echo "    up "  "$(uptime | cut -c 15-)")"'
 
 # basic movement
 # focusing clients
@@ -93,8 +96,6 @@ for i in ${!tag_names[@]} ; do
 done
 
 # cycle through tags
-hc keybind $AMod-bracketright use_index +1 --skip-visible
-hc keybind $AMod-bracketleft  use_index -1 --skip-visible
 hc keybind $Mod-period use_index +1 --skip-visible
 hc keybind $Mod-comma  use_index -1 --skip-visible
 hc keybind $Mod-minus  use_previous
@@ -123,7 +124,7 @@ hc mousebind $AMod-Button2 zoom
 hc mousebind $AMod-Button3 resize
 
 # focus
-# hc keybind $Mod-BackSpace   cycle_monitor
+hc keybind $Mod-equal   cycle_monitor
 hc keybind $Mod-Tab         cycle_all +1
 hc keybind $AMod-Tab         cycle_all +1
 hc keybind $AMod-Shift-Tab   cycle_all -1

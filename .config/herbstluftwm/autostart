@@ -9,8 +9,6 @@ hc() {
 copyq &
 hc emit_hook reload
 
-export TERMINAL=xfce4-terminal
-
 xsetroot -solid '#000000'
 
 # remove all existing keybindings
@@ -162,6 +160,8 @@ hc set frame_padding 0
 hc set smart_window_surroundings off
 hc set smart_frame_surroundings on
 hc set mouse_recenter_gap 0
+hc set auto_detect_panels off
+hc set hide_covered_windows on
 
 # rules
 hc unrule -F
@@ -174,6 +174,8 @@ hc rule windowtype~'_NET_WM_WINDOW_TYPE_(DIALOG|UTILITY|SPLASH)' pseudotile=on
 hc rule windowtype='_NET_WM_WINDOW_TYPE_DIALOG' focus=on
 hc rule windowtype~'_NET_WM_WINDOW_TYPE_(NOTIFICATION|DOCK|DESKTOP)' manage=off
 
+hc rule class=Tilda floating=on
+
 hc set tree_style '╾│ ├└╼─┐'
 
 # unlock, just to be sure
@@ -182,7 +184,7 @@ hc unlock
 # do multi monitor setup here, e.g.:
 # hc set_monitors 1280x1024+0+0 1280x1024+1280+0
 # or simply:
-# hc detect_monitors
+hc detect_monitors
 
 # find the panel
 # panel=~/.config/herbstluftwm/panel.sh

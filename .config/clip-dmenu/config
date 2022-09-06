@@ -1,0 +1,6 @@
+aria2c	xterm -hold -e "cd ~/Downloads && aria2c '%s'"
+mpv	mpv %s
+you-get	xterm -hold -e "cd ~/Videos/ && you-get '%s'; echo DONE"
+youtube-dl	xterm -hold -title '%s' -e "echo '%s'; cd ~/Videos/ && youtube-dl --no-playlist '%s'; echo DONE"
+youtube-dl (subtitles)	xterm -hold -title '%s' -e "cd ~/Videos/ && youtube-dl --no-playlist --write-sub '%s'; echo DONE"
+youtube-dl (playlist)	xterm -hold -title '%s' -e "cd ~/Videos/ && youtube-dl --yes-playlist '%s'; echo DONE"

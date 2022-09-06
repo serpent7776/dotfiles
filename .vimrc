@@ -369,6 +369,7 @@ nmap ,gs :Gstatus<LF>
 imap <A-l> <Plug>CapsLockToggle
 nnoremap \ab :ALEToggleBuffer<LF>
 nnoremap \ad :ALEDetail<LF>
+nnoremap \ah :ALEHover<LF>
 nnoremap \St :SignifyToggle<LF>
 
 if has('gui_running')

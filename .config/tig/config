@@ -1,0 +1,10 @@
+color "---"			white	default
+color "index "			cyan	default
+color "\ No newline at end of file"	yellow	default
+color "Merge: "			white	default
+color cursor			white	blue	bold
+color date			cyan	default
+color grep.file			cyan	default
+color help-group		cyan	default
+color diff-stat			cyan	default
+color graph-commit		red	default

@@ -1,6 +1,6 @@
 "Mappings:
 "misc:
-nmap <Tab> :
+nmap ,; :
 
 "yank and paste:
 nmap \y "+yy

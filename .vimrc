@@ -79,7 +79,7 @@ colo vish
 set numberwidth=4
 set lbr
 set list
-set lcs=tab:¦\ ,trail:·
+set listchars=tab:¦\ ,trail:·
 set display=lastline
 
 "formatting text

@@ -88,6 +88,13 @@ set formatoptions -=o
 set cinoptions=g0,t0,j1,l1,(s,W1s,m1
 set ai
 
+"completion
+if has ('nvim')
+	set completeopt=menu,preview,longest,noselect,noinsert
+else
+	set completeopt=menu,preview,longest,popup,noselect,noinsert
+endif
+
 "folds
 set foldmethod=marker
 

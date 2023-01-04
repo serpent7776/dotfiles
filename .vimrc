@@ -184,6 +184,7 @@ let g:UltiSnipsEditSplit="context"
 "Ale:
 let g:ale_completion_enabled=1
 let g:ale_floating_preview=1
+let ale_virtualtext_cursor=0 " disable virtual text
 let g:ale_cpp_cc_options="-std=c++20 -Wall -Wextra -pedantic -I /usr/local/include"
 let g:ale_cpp_clangtidy_options="-std=c++20 -I /usr/local/include"
 let ale_cpp_clangcheck_options='--extra-arg=-std=c++20'
@@ -194,6 +195,7 @@ let g:ale_linters={
 			\}
 "VimLSP:
 let g:lsp_signature_help_enabled = 0
+let lsp_diagnostics_virtual_text_enabled=0 " disable virtual text
 
 "Commands:
 command! -nargs=1 -complete=file E	tabe <args>

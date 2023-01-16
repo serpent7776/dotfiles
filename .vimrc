@@ -267,6 +267,7 @@ vmap \p "+p
 vmap \P "+P
 imap <S-Insert> <C-R>*
 nmap ,p \o\p
+set pastetoggle=<F12>
 
 "buffers:
 nnoremap <C-n> :vnew<LF>

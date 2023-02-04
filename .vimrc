@@ -369,6 +369,18 @@ nmap ,'d :diffof<LF>
 nmap ,'s :setl spell!<LF>
 nmap ,'r :setl rnu!<LF>
 
+"lsp:
+nnoremap \ah :ALEHover<LF>
+nnoremap \af :ALEGoToDefinition<LF>
+nnoremap \ai :ALEGoToImplementation<LF>
+nnoremap \at :ALEGoToTypeDefinition<LF>
+nnoremap \lh :LspHover<LF>
+nnoremap \lc :LspDeclaration<LF>
+nnoremap \lf :LspDefinition<LF>
+nnoremap \li :LspImplementation<LF>
+nnoremap \lt :LspTypeDefinition<LF>
+nnoremap \lr :LspRename<LF>
+
 "other:
 nmap ,gd :Gdiff<LF>
 nmap ,gc :Git commit<LF>
@@ -378,7 +390,6 @@ nmap ,gs :Gstatus<LF>
 imap <A-l> <Plug>CapsLockToggle
 nnoremap \ab :ALEToggleBuffer<LF>
 nnoremap \ad :ALEDetail<LF>
-nnoremap \ah :ALEHover<LF>
 nnoremap \St :SignifyToggle<LF>
 
 if has('gui_running')

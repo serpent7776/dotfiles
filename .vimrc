@@ -198,7 +198,10 @@ let g:lsp_signature_help_enabled = 0
 let lsp_diagnostics_virtual_text_enabled=0 " disable virtual text
 
 "Commands:
+" Open file in a new tab
 command! -nargs=1 -complete=file E	tabe <args>
+" search for a pattern in current file and put results in location list
+command! -nargs=1 G	lvimgrep /<args>/j % <bar> lop
 
 "Autocommands:
 

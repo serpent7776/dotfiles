@@ -1,3 +1,5 @@
+source ~/.vimrc
+
 "Mappings:
 "misc:
 nmap ,; :

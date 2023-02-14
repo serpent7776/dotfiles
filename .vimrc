@@ -112,6 +112,9 @@ syntax on
 filetype plugin indent on
 set spelllang=en,pl
 
+"ft options:
+let omni_sql_no_default_maps=1
+
 "plugin configuration
 "NerdCommenter:
 let g:NERDSpaceDelims = 1

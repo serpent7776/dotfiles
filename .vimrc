@@ -87,9 +87,9 @@ set ai
 
 "completion
 if has ('nvim')
-	set completeopt=menu,preview,longest,noselect
+	set completeopt=menu,preview,longest
 else
-	set completeopt=menu,preview,longest,popup,noselect
+	set completeopt=menu,preview,longest,popup
 endif
 
 "folds

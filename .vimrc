@@ -199,6 +199,8 @@ let g:ale_linters={
 "VimLSP:
 let g:lsp_signature_help_enabled = 0
 let lsp_diagnostics_virtual_text_enabled=0 " disable virtual text
+"Ag:
+let g:ag_highlight=1
 
 "Commands:
 " Open file in a new tab

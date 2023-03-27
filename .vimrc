@@ -373,6 +373,7 @@ nmap <A-q> :x<LF>
 nmap ,'d :diffof<LF>
 nmap ,'s :setl spell!<LF>
 nmap ,'r :setl rnu!<LF>
+nmap ,'n :setl nu!<LF>
 
 "lsp:
 nnoremap \ah :ALEHover<LF>

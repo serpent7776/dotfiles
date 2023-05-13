@@ -325,6 +325,7 @@ nmap ,mm <Plug>VMarkToggle
 nmap ,mn <Plug>VMarkNext
 nmap ,mN <Plug>VMarkPrevious
 nmap ,mc <Plug>VMarkClearAll
+nmap gh :let @/=expand('<cword>')<LF>
 nmap <Space>m, <Plug>MarkSet
 nmap <Space>mm <Plug>MarkSet
 nmap <Space>mr <Plug>MarkRegex

@@ -300,6 +300,8 @@ map <A-9> :tabn 9<LF>
 map <A-0> :tabn 10<LF>
 map <C-Home> :tabfirst<LF>
 map <C-End> :tablast<LF>
+nmap g< :tabm -1<LF>
+nmap g> :tabm +1<LF>
 map <A-Left> :tabm -1<LF>
 map <A-Right> :tabm +1<LF>
 map <A-Home> :tabm 0<LF>

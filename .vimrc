@@ -352,6 +352,12 @@ map <C-S-k7> <Plug>MarkSearchGroup7Prev
 map <C-S-k8> <Plug>MarkSearchGroup8Prev
 map <C-S-k9> <Plug>MarkSearchGroup9Prev
 
+"selecting
+omap ic <plug>(signify-motion-inner-pending)
+xmap ic <plug>(signify-motion-inner-visual)
+omap ac <plug>(signify-motion-outer-pending)
+xmap ac <plug>(signify-motion-outer-visual)
+
 "editing:
 map \c. <Plug>NERDComInsertComment
 map ]d <Plug>(textmanip-duplicate-down)

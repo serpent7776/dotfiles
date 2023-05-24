@@ -4,3 +4,4 @@ you-get	xterm -hold -title '%s' -e "echo '%s'; cd ~/Videos/ && you-get --postfix
 youtube-dl	xterm -hold -title '%s' -e "echo '%s'; cd ~/Videos/ && youtube-dl --no-playlist '%s'; echo DONE"
 youtube-dl (subtitles)	xterm -hold -title '%s' -e "cd ~/Videos/ && youtube-dl --no-playlist --write-sub '%s'; echo DONE"
 youtube-dl (playlist)	xterm -hold -title '%s' -e "cd ~/Videos/ && youtube-dl --yes-playlist '%s'; echo DONE"
+yt-dlp 	xterm -hold -title '%s' -e "cd ~/Videos/ && yt-dlp '%s'; echo DONE"

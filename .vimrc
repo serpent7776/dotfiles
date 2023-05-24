@@ -418,3 +418,8 @@ else
 	nnoremap ,tl :!tig log %<LF>
 	nnoremap ,td :!git diff % \| tig<LF>
 endif
+
+augroup local
+	autocmd!
+	autocmd FileType gitcommit setlocal spell
+augroup END

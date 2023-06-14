@@ -413,6 +413,11 @@ if has('gui_running')
 	nnoremap <expr> ,tb ':!xterm -e tig blame +' . line('.') . ' ' . expand('%') . '<LF>'
 	nnoremap ,tl :!xterm -e tig log %<LF>
 	nnoremap ,td :!xterm -e 'git diff % \| tig'<LF>
+elseif has('nvim')
+	nnoremap ,tt :vsplit +terminal\ tig<LF>
+	nnoremap <expr> ,tb ':vsplit +terminal\ tig\ blame\ +' . line('.') . '\ ' . expand('%') . '<LF>'
+	nnoremap ,tl :vsplit +terminal\ tig\ log\ %<LF>
+	nnoremap ,td :vsplit +terminal\ git\ diff\ %\ \|\ tig<LF>
 else
 	nnoremap ,tt :!tig<LF>
 	nnoremap <expr> ,tb ':!tig blame +' . line('.') . ' ' . expand('%') . '<LF>'

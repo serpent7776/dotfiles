@@ -20,6 +20,7 @@ if !exists("g:nobundles")
 	Plug 'tommcdo/vim-exchange'
 	Plug 'tmhedberg/matchit'
 	Plug 'tpope/vim-surround'
+	Plug 'jsborjesson/vim-uppercase-sql'
 	Plug 'tpope/vim-fugitive'
 	Plug 'gregsexton/gitv'
 	Plug 'tpope/vim-capslock'

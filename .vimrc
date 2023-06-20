@@ -213,6 +213,9 @@ command! -nargs=1 G	lvimgrep /<args>/j % <bar> lop
 "Autocommands:
 
 "Mappings:
+" get rid of annoying neovim mapping
+silent! unmap Y
+
 "misc:
 map ,; :
 map \o o<ESC>

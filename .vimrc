@@ -80,6 +80,7 @@ set lbr
 set list
 set listchars=tab:¦\ ,trail:·
 set display=lastline
+set statusline=%n:\ %M%f%3.(\ %)%([%Y%R]%)%=%(%l/%LL,%cC\ %P%)
 
 "formatting text
 set formatoptions +=rj

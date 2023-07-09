@@ -7,7 +7,6 @@ set guifont=DejaVu\ Sans\ Mono\ 10
 set bsdir=buffer
 set ruler
 set shortmess=filmnrx
-set statusline=%n:\ %M%f%3.(\ %)%([%Y%R]%)%=%(%l/%LL,%cC\ %P%)
 set winaltkeys=no
 
 "Plugins:

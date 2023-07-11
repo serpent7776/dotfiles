@@ -46,6 +46,7 @@ if !exists("g:nobundles")
 	" Plug 'serpent7776/vim-logcat'
 	Plug 'vim-scripts/brainfuck-syntax'
 	" Plug 'jszakmeister/vim-togglecursor'
+	Plug 'ledger/vim-ledger'
 	Plug 'serpent7776/vim-vish'
 
 	call plug#end()
@@ -210,8 +211,6 @@ let g:ag_highlight=1
 command! -nargs=1 -complete=file E	tabe <args>
 " search for a pattern in current file and put results in location list
 command! -nargs=1 G	lvimgrep /<args>/j % <bar> lop
-
-"Autocommands:
 
 "Mappings:
 " get rid of annoying neovim mapping
@@ -430,7 +429,9 @@ else
 	nnoremap ,td :!git diff % \| tig<LF>
 endif
 
+"autocommands:
 augroup local
 	autocmd!
 	autocmd FileType gitcommit setlocal spell
+	autocmd FileType ledger let current_compiler=''
 augroup END

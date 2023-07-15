@@ -8,3 +8,5 @@ color grep.file			cyan	default
 color help-group		cyan	default
 color diff-stat			cyan	default
 color graph-commit		red	default
+
+bind status	A	!git commit --amend

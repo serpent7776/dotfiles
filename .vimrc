@@ -395,12 +395,15 @@ nnoremap \ah :ALEHover<LF>
 nnoremap \af :ALEGoToDefinition<LF>
 nnoremap \ai :ALEGoToImplementation<LF>
 nnoremap \at :ALEGoToTypeDefinition<LF>
+nnoremap \aa :ALECodeAction<LF>
+nnoremap \ar :ALERename<LF>
 nnoremap \lh :LspHover<LF>
 nnoremap \lc :LspDeclaration<LF>
 nnoremap \lf :LspDefinition<LF>
 nnoremap \li :LspImplementation<LF>
 nnoremap \lt :LspTypeDefinition<LF>
 nnoremap \lr :LspRename<LF>
+nnoremap \la :LspCodeAction<LF>
 
 "other:
 nmap ,gd :Gdiff<LF>

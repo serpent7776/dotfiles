@@ -5,3 +5,4 @@ youtube-dl	xterm -hold -title '%s' -e "echo '%s'; cd ~/Videos/ && youtube-dl --n
 youtube-dl (subtitles)	xterm -hold -title '%s' -e "cd ~/Videos/ && youtube-dl --no-playlist --write-sub '%s'; echo DONE"
 youtube-dl (playlist)	xterm -hold -title '%s' -e "cd ~/Videos/ && youtube-dl --yes-playlist '%s'; echo DONE"
 yt-dlp 	xterm -hold -title '%s' -e "cd ~/Videos/ && yt-dlp '%s'; echo DONE"
+yt-dlp (subtitles)	xterm -hold -title '%s' -e "cd ~/Videos/ && yt-dlp --write-subs '%s'; echo DONE"

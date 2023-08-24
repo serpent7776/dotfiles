@@ -1,0 +1,1 @@
+feh --info "identify %f" --draw-filename

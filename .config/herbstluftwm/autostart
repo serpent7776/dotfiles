@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-# this is a simple config for herbstluftwm
-
 hc() {
     herbstclient "$@"
 }
@@ -23,14 +21,14 @@ AMod=Mod1  # use alt as alternative mod
 # hc keybind $Mod-Shift-q quit
 hc keybind $Mod-Shift-r reload
 hc keybind $Mod-q close
-hc keybind $Mod-Return spawn st tmux
-hc keybind $Mod-Shift-Return spawn st
+hc keybind $Mod-Return spawn "${TERMINAL:-xterm}" -e tmux
+hc keybind $Mod-Shift-Return spawn "${TERMINAL:-xterm}"
 hc keybind $Mod-grave spawn dmenu_run
 hc keybind $Mod-Shift-grave spawn rofi -modi drun -show drun -matching fuzzy
 hc keybind $Mod-Shift-Tab spawn rofi -modi window -show window -matching fuzzy
 hc keybind $Mod-BackSpace spawn i3lock -f -c 000000 -t -i ~/var/lockscreen/11241-chii-chobits-clamp.png
 hc keybind $Mod-e spawn pcmanfm
-hc keybind $Mod-f spawn xterm -e ranger
+hc keybind $Mod-f spawn "${TERMINAL:-xterm}" -T ranger -e ranger
 hc keybind $Mod-g spawn gvim
 hc keybind Ctrl-Shift-a spawn clip-dmenu.pl -b -c 'rofi -dmenu'
 hc keybind Print spawn scrot -e 'feh $f' /tmp/%Y_%m_%d-%H_%M_%S.png

@@ -38,6 +38,7 @@ if !exists("g:nobundles")
 	Plug 'honza/vim-snippets'
 	Plug 'serpent7776/my-snippets'
 	Plug 'mbbill/undotree'
+	Plug 'mlochbaum/BQN', {'rtp': 'editors/vim'}
 	Plug 'prabirshrestha/vim-lsp'
 	Plug 'mattn/vim-lsp-settings'
 	Plug 'tikhomirov/vim-glsl'

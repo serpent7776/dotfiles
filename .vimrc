@@ -219,8 +219,8 @@ silent! unmap Y
 
 "misc:
 map ,; :
-map \o o<ESC>
-map \O O<ESC>
+nmap [o O<ESC>
+nmap ]o o<ESC>
 map \M<space> :QuickhlMatch<LF>
 map \Mc :QuickhlMatchClear<LF>
 imap <S-Tab> 

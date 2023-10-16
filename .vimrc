@@ -437,4 +437,5 @@ endif
 augroup local
 	autocmd!
 	autocmd FileType gitcommit setlocal spell
+	autocmd FileType sml setlocal ts=2 sw=2
 augroup END

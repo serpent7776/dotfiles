@@ -437,5 +437,4 @@ endif
 augroup local
 	autocmd!
 	autocmd FileType gitcommit setlocal spell
-	autocmd FileType ledger let current_compiler=''
 augroup END

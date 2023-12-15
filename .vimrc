@@ -82,7 +82,8 @@ set lbr
 set list
 set listchars=tab:¦\ ,trail:·
 set display=lastline
-set statusline=%n:\ %M%f%3.(\ %)%([%Y%R]%)%=%(%l/%LL,%cC\ %P%)
+set statusline=%{tabpagewinnr(tabpagenr())}w,%nb:\ %M%f%3.(\ %)%([%Y%R]%)\ \"%{v:register}\ %=%(%l/%LL,%cC\ %P%)
+set shortmess-=S
 
 "formatting text
 set formatoptions +=rj

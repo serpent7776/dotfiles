@@ -27,6 +27,7 @@ if !exists("g:nobundles")
 	Plug 'tpope/vim-eunuch'
 	Plug 'tpope/tpope-vim-abolish'
 	Plug 'xolox/vim-misc'
+	Plug 'vbextreme/dumpx'
 	Plug 'mhinz/vim-signify'
 	Plug 'Shougo/vimproc.vim'
 	Plug 'joonty/vdebug'

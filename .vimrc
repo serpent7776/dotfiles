@@ -222,11 +222,12 @@ command! -nargs=1 G	lvimgrep /<args>/j % <bar> lop
 silent! unmap Y
 
 "misc:
-map ,; :
-nmap [o O<ESC>
-nmap ]o o<ESC>
-map \M<space> :QuickhlMatch<LF>
-map \Mc :QuickhlMatchClear<LF>
+noremap Q :
+noremap ,; :
+nnoremap [o O<ESC>
+nnoremap ]o o<ESC>
+nmap \M<space> :QuickhlMatch<LF>
+nmap \Mc :QuickhlMatchClear<LF>
 imap <S-Tab> 
 imap <C-Tab> <C-T>
 imap <A-a> <C-o>A
@@ -284,7 +285,7 @@ vmap \d "+d
 vmap \p "+p
 vmap \P "+P
 imap <S-Insert> <C-R>*
-nmap ,p \o\p
+nmap ,p ]o\p
 set pastetoggle=<F12>
 
 "buffers:

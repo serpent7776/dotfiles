@@ -35,7 +35,7 @@ hc keybind Print spawn scrot -e 'feh $f' /tmp/%Y_%m_%d-%H_%M_%S.png
 hc keybind Ctrl-Print spawn scrot -u -e 'feh $f' /tmp/%Y_%m_%d-%H_%M_%S.png
 hc keybind Shift-Print spawn /opt/bin/maim-dmenu.sh
 hc keybind $Mod-slash spawn sh -c 'notify-send "$(xdotool getwindowfocus getwindowname )"'
-hc keybind $Mod-F1 spawn sh -c 'notify-send "$(date "+%a %Y-%m-%d %H:%M:%S")" "  🔋$(acpi | cut -d : -f 2 | cut -d , -f 1,2 | sed -e 's/Discharging/▼/' | sed -e 's/Charging/▲/' | tr -d , )  $(echo "  up "  "$(uptime | cut -c 14-)")"'
+hc keybind $Mod-F1 spawn sh -c 'notify-send "$(date "+%a %Y-%m-%d %H:%M:%S")" "  🔋$(acpi | cut -d : -f 2 | cut -d , -f 1,2 | sed -e "s/Full/█/" -e "s/Discharging/▼/" -e "s/Charging/▲/" | tr -d , )  $(echo "  up "  "$(uptime | cut -c 14-)")"'
 
 # basic movement
 # focusing clients

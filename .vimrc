@@ -211,6 +211,7 @@ let lsp_diagnostics_virtual_text_enabled=0 " disable virtual text
 let g:ag_prg='rg --vimgrep'
 let g:ag_highlight=1
 let g:ag_mapping_message=0
+let g:ag_working_path_mode='r'
 
 "Commands:
 " Open file in a new tab

@@ -11,12 +11,14 @@ settings:
   bindings.commands:
     global:
       normal:
+        <: tab-move -
         <Ctrl+Shift+s>: session-save s
         <Ctrl+Shift+w>: null
         <Ctrl+i>: forward
         <Ctrl+o>: back
         <Ctrl+q>: wq
         <F12>: :devtools
+        '>': tab-move +
         D: null
         F12: :devtools
         J: tab-prev

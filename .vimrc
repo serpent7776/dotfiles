@@ -217,6 +217,7 @@ let g:ag_mapping_message=0
 command! -nargs=1 -complete=file E	tabe <args>
 " search for a pattern in current file and put results in location list
 command! -nargs=1 G	lvimgrep /<args>/j % <bar> lop
+command! TrimSpaces :%s/\s\+$//e
 
 "Mappings:
 " get rid of annoying neovim mapping

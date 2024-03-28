@@ -326,6 +326,7 @@ map <A-End> :tabm 100<LF>
 nmap <A-b> :LeaderfBuffer<LF>
 nmap \F :LeaderfFunction<LF>
 nmap \gf :LeaderfFilePattern<Space>
+nmap \gF :LeaderfFileCword<LF>
 nmap \gl :LeaderfLineCword<LF>
 nmap \gL :LeaderfLinePattern<Space>
 nmap \gr :LeaderfTagPattern<Space>

@@ -20,7 +20,6 @@ if status is-interactive
     alias poly 'rlwrap poly'
     alias ocaml 'rlwrap ocaml'
     alias tclsh 'rlwrap tclsh'
-    alias yazi '/opt/yazi-x86_64-unknown-linux-gnu/yazi'
     alias R 'R --no-save'
 
     . ~/data/git/cg/activate.fish

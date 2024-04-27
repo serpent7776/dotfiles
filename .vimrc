@@ -20,6 +20,7 @@ if !exists("g:nobundles")
 	Plug 'tommcdo/vim-exchange'
 	Plug 'tmhedberg/matchit'
 	Plug 'tpope/vim-surround'
+	Plug 'AndrewRadev/splitjoin.vim'
 	Plug 'jsborjesson/vim-uppercase-sql'
 	Plug 'tpope/vim-fugitive'
 	Plug 'gregsexton/gitv'
@@ -212,6 +213,11 @@ let g:ag_prg='rg --vimgrep'
 let g:ag_highlight=1
 let g:ag_mapping_message=0
 let g:ag_working_path_mode='r'
+"SplitJoin:
+let g:splitjoin_split_mapping = 'cK'
+let g:splitjoin_join_mapping = 'cJ'
+let g:splitjoin_mapping_fallback = 0
+let g:splitjoin_quiet = 1
 
 "Commands:
 " Open file in a new tab

@@ -40,6 +40,7 @@ if !exists("g:nobundles")
 	Plug 'serpent7776/my-snippets'
 	Plug 'mbbill/undotree'
 	Plug 'mlochbaum/BQN', {'rtp': 'editors/vim'}
+	Plug 'https://codeberg.org/ngn/k', {'rtp': 'vim-k'}
 	Plug 'prabirshrestha/vim-lsp'
 	Plug 'mattn/vim-lsp-settings'
 	Plug 'tikhomirov/vim-glsl'

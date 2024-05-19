@@ -19,6 +19,7 @@ if !exists("g:nobundles")
 	Plug 't9md/vim-textmanip'
 	Plug 'tommcdo/vim-exchange'
 	Plug 'tmhedberg/matchit'
+	Plug 'kien/rainbow_parentheses.vim'
 	Plug 'tpope/vim-surround'
 	Plug 'AndrewRadev/splitjoin.vim'
 	Plug 'jsborjesson/vim-uppercase-sql'

@@ -27,7 +27,6 @@ if status is-interactive
     . ~/data/git/cg/activate.fish
 
     set -gx PAGER "less -R"
-    set CDPATH ~/data/git
     set fish_help_browser midori
 
     fish_add_path ~/.cargo/bin/

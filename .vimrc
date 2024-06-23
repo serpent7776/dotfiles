@@ -259,6 +259,7 @@ nnoremap [o O<ESC>
 nnoremap ]o o<ESC>
 nmap \M<space> :QuickhlMatch<LF>
 nmap \Mc :QuickhlMatchClear<LF>
+nmap <c-w>; :exe 'resize '.line('$')<LF>
 imap <S-Tab> 
 imap <C-Tab> <C-T>
 imap <A-a> <C-o>A

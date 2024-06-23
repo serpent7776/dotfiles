@@ -211,7 +211,6 @@ let g:ale_linters={
 let g:lsp_signature_help_enabled = 0
 let lsp_diagnostics_virtual_text_enabled=0 " disable virtual text
 "Ag:
-let g:ag_prg='rg --vimgrep'
 let g:ag_highlight=1
 let g:ag_mapping_message=0
 let g:ag_working_path_mode='r'

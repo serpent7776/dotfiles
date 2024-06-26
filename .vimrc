@@ -230,7 +230,10 @@ let g:ale_linters={
 			\}
 "VimLSP:
 let g:lsp_signature_help_enabled = 0
-let lsp_diagnostics_virtual_text_enabled=0 " disable virtual text
+let g:lsp_diagnostics_virtual_text_enabled=0 " disable virtual text
+let g:lsp_diagnostics_echo_cursor=1
+let g:lsp_diagnostics_echo_delay=1000
+let g:lsp_document_highlight_enabled=0
 "Ag:
 let g:ag_highlight=1
 let g:ag_mapping_message=0

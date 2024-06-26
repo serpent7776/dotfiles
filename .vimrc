@@ -71,6 +71,11 @@ function! ListFKeyMaps()
 	echo join(l:lines, "\n")
 endfunction
 
+function! ReverseLines(first, last)
+    let l:anchor = a:first-1
+    execute a:first.",".a:last."g/^/m".l:anchor
+endfunction
+
 "security
 set nomodeline
 
@@ -263,6 +268,7 @@ command! -nargs=1 G	lvimgrep /<args>/j % <bar> lop
 command! TrimSpaces :%s/\s\+$//e
 command! F :call ListFKeyMaps()
 command! W : " disable Eunuch W command
+command -range Rev :call ReverseLines(<line1>, <line2>)
 
 "Mappings:
 " get rid of annoying neovim mapping

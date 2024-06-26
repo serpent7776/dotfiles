@@ -44,6 +44,7 @@ if !exists("g:nobundles")
 	Plug 'https://codeberg.org/ngn/k', {'rtp': 'vim-k'}
 	Plug 'prabirshrestha/vim-lsp'
 	Plug 'mattn/vim-lsp-settings'
+	Plug 'gauteh/vim-cppman'
 	Plug 'tikhomirov/vim-glsl'
 	Plug 'nickhutchinson/vim-cmake-syntax'
 	" Plug 'kelwin/vim-smali'

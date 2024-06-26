@@ -97,6 +97,7 @@ set showcmd
 set showmode
 set diffopt+=algorithm:patience,indent-heuristic
 set ruler
+set noequalalways
 colo vish
 
 "displaying text

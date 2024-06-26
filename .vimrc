@@ -57,6 +57,20 @@ if !exists("g:nobundles")
 	call plug#end()
 endif
 
+function! ListFKeyMaps()
+	let g:maps = ''
+	for i in range(1, 12)
+		redir =>> g:maps
+			silent execute 'map <F'.i.'>'
+		redir END
+	endfor
+
+	let l:lines = split(g:maps, '\n')
+	call filter(l:lines, 'v:val != ""')
+	call filter(l:lines, 'v:val != "No mapping found"')
+	echo join(l:lines, "\n")
+endfunction
+
 "security
 set nomodeline
 
@@ -247,6 +261,7 @@ command! -nargs=1 -complete=file E	tabe <args>
 " search for a pattern in current file and put results in location list
 command! -nargs=1 G	lvimgrep /<args>/j % <bar> lop
 command! TrimSpaces :%s/\s\+$//e
+command! F :call ListFKeyMaps()
 command! W : " disable Eunuch W command
 
 "Mappings:

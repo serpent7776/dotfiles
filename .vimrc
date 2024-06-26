@@ -499,8 +499,12 @@ else
 endif
 
 "autocommands:
-augroup local
+augroup myau
 	autocmd!
 	autocmd FileType gitcommit setlocal spell
 	autocmd FileType sml setlocal ts=2 sw=2
+	autocmd Syntax * RainbowParenthesesLoadRound
+	" autocmd Syntax * RainbowParenthesesLoadSquare
+	autocmd Syntax * RainbowParenthesesLoadBraces
+	autocmd VimEnter * RainbowParenthesesToggle
 augroup END

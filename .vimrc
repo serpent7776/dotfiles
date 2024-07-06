@@ -245,16 +245,17 @@ let g:splitjoin_mapping_fallback = 0
 let g:splitjoin_quiet = 1
 "Rainbow_parentheses:
 let g:rbpt_colorpairs = [
-	\ ['brown',       'RoyalBlue3'],
-	\ ['Darkblue',    'SeaGreen3'],
+	\ ['gray',        'RoyalBlue3'],
 	\ ['darkgray',    'DarkOrchid3'],
+	\ ['white',       'SeaGreen3'],
+	\ ['brown',       'RoyalBlue3'],
+	\ ['darkmagenta', 'DarkOrchid3'],
+	\ ['Darkblue',    'SeaGreen3'],
 	\ ['darkgreen',   'firebrick3'],
 	\ ['darkcyan',    'RoyalBlue3'],
 	\ ['darkred',     'SeaGreen3'],
-	\ ['darkmagenta', 'DarkOrchid3'],
+	\ ['red',         'firebrick3'],
 	\ ['brown',       'firebrick3'],
-	\ ['gray',        'RoyalBlue3'],
-	\ ['black',       'SeaGreen3'],
 	\ ['darkmagenta', 'DarkOrchid3'],
 	\ ['Darkblue',    'firebrick3'],
 	\ ['darkgreen',   'RoyalBlue3'],

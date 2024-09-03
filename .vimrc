@@ -270,7 +270,7 @@ let g:rbpt_colorpairs = [
 command! -nargs=1 -complete=file E	tabe <args>
 " search for a pattern in current file and put results in location list
 command! -nargs=1 G	lvimgrep /<args>/j % <bar> lop
-command! TrimSpaces :%s/\s\+$//e
+command! TrimSpaces :keeppatterns %s/\s\+$//e
 command! F :call ListFKeyMaps()
 command! W : " disable Eunuch W command
 command -range Rev :call ReverseLines(<line1>, <line2>)

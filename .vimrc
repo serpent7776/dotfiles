@@ -327,12 +327,12 @@ nmap ,j 7
 vmap ,j 7 
 nmap ,k 7
 vmap ,k 7
-nmap <M-Up> 7
-vmap <M-Up> 7
-imap <M-Up> 7
-nmap <M-Down> 7
-vmap <M-Down> 7
-imap <M-Down> 7
+nmap <M-Up> 
+vmap <M-Up> 
+imap <M-Up> 
+nmap <M-Down> 
+vmap <M-Down> 
+imap <M-Down> 
 
 "yank and paste:
 nmap \y "+yy

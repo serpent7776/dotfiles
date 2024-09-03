@@ -198,6 +198,7 @@ let g:neocomplete#sources#syntax#min_keyword_length = 3
 "LeaderF:
 let g:Lf_WindowPosition='popup'
 let g:Lf_PreviewPosition='right'
+let g:Lf_TabpagePosition=2
 let g:Lf_Ctags='uctags'
 let g:Lf_WildIgnore = {
 			\ 'dir': ['.svn', '.git', 'build', '.gradle', '.idea', 'libs', 'assets'],

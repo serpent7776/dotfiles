@@ -26,6 +26,7 @@ if status is-interactive
 
     . ~/data/git/cg/activate.fish
 
+    set -gx LESS "-R -M --incsearch --shift=8 --use-color"
     set -gx PAGER "less -R"
     set fish_help_browser midori
 

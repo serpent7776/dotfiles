@@ -40,6 +40,7 @@ if !exists("g:nobundles")
 	Plug 'honza/vim-snippets'
 	Plug 'serpent7776/my-snippets'
 	Plug 'mbbill/undotree'
+	Plug 'szw/vim-maximizer'
 	Plug 'mlochbaum/BQN', {'rtp': 'editors/vim'}
 	Plug 'https://codeberg.org/ngn/k', {'rtp': 'vim-k'}
 	Plug 'prabirshrestha/vim-lsp'
@@ -289,6 +290,7 @@ nnoremap ]o o<ESC>
 nmap \M<space> :QuickhlMatch<LF>
 nmap \Mc :QuickhlMatchClear<LF>
 nmap <c-w>; :exe 'resize '.line('$')<LF>
+nnoremap <C-W>m :MaximizerToggle<CR>
 imap <S-Tab> 
 imap <C-Tab> <C-T>
 imap <A-a> <C-o>A

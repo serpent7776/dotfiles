@@ -22,6 +22,7 @@ if status is-interactive
     alias tclsh 'rlwrap tclsh'
     alias ngnk 'rlwrap -S "> " -pgreen ngnk'
     alias R 'R --no-save'
+    alias view 'vim -R'
     alias utop 'opam exec --switch=repl -- utop'
 
     . ~/data/git/cg/activate.fish

@@ -20,7 +20,7 @@ if status is-interactive
     alias poly 'rlwrap poly'
     alias ocaml 'rlwrap ocaml'
     alias tclsh 'rlwrap tclsh'
-    alias ngnk 'rlwrap -S "> " -pgreen ngnk'
+    alias ngnk 'rlwrap -S "> " -pgreen ngnk /usr/lib/ngnk/repl.k'
     alias R 'R --no-save'
     alias view 'vim -R'
     alias utop 'opam exec --switch=repl -- utop'

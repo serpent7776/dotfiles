@@ -274,7 +274,8 @@ command! -nargs=1 G	lvimgrep /<args>/j % <bar> lop
 command! TrimSpaces :keeppatterns %s/\s\+$//e
 command! F :call ListFKeyMaps()
 command! W : " disable Eunuch W command
-command -range Rev :call ReverseLines(<line1>, <line2>)
+command! -range Rev :call ReverseLines(<line1>, <line2>)
+command! Scratch :new | setlocal buftype=nofile bufhidden=hide noswapfile | file "[Scratch]"
 
 "Mappings:
 " get rid of annoying neovim mapping

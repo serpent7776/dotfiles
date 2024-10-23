@@ -481,7 +481,7 @@ nmap ,gc :Git commit<LF>
 nmap ,gw :Gwrite<LF>
 nmap ,gb :Gblame<LF>
 nmap ,gs :Gstatus<LF>
-imap <A-l> <Plug>CapsLockToggle
+imap <C-l> <Plug>CapsLockToggle
 nnoremap \ab :ALEToggleBuffer<LF>
 nnoremap \ad :ALEDetail<LF>
 nnoremap \St :SignifyToggle<LF>

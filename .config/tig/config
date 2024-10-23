@@ -1,15 +1,15 @@
 set main-view-id-display = yes
 
-color "---"			white	default
-color "index "			cyan	default
-color "\ No newline at end of file"	yellow	default
-color "Merge: "			white	default
-color cursor			white	blue	bold
-color date			cyan	default
-color grep.file			cyan	default
-color help-group		cyan	default
-color diff-stat			cyan	default
-color graph-commit		red	default
+color "---"                  white   default
+color "index "               cyan    default
+color "Merge: "              white   default
+color cursor                 white   blue  bold
+color date                   cyan    default
+color grep.file              cyan    default
+color help-group             cyan    default
+color diff-stat              cyan    default
+color graph-commit           red     default
+color "\ No newline at end of file"     yellow  default
 
-bind main       F       !git commit --fixup=%(commit)
-bind status	A	!git commit --amend
+bind main   F !git commit --fixup=%(commit)
+bind status A !git commit --amend

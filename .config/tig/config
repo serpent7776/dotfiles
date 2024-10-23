@@ -11,4 +11,5 @@ color help-group		cyan	default
 color diff-stat			cyan	default
 color graph-commit		red	default
 
+bind main       F       !git commit --fixup=%(commit)
 bind status	A	!git commit --amend

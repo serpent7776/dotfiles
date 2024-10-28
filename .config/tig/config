@@ -12,4 +12,5 @@ color graph-commit           red     default
 color "\ No newline at end of file"     yellow  default
 
 bind main   F !git commit --fixup=%(commit)
+bind main   B !git rebase -i --autostash --autosquash %(commit)
 bind status A !git commit --amend

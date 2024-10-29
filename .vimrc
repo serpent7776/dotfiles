@@ -147,6 +147,8 @@ set spelllang=en,pl
 let omni_sql_no_default_maps=1
 
 "plugin configuration
+"NetRW:
+let g:netrw_browsex_viewer="firefox"
 "NerdCommenter:
 let g:NERDSpaceDelims = 1
 "Checksyntax:

@@ -226,6 +226,7 @@ let g:ale_cpp_cc_options="-std=c++20 -Wall -Wextra -pedantic -I /usr/local/inclu
 let g:ale_cpp_clangtidy_options="-std=c++20 -I /usr/local/include"
 let ale_cpp_clangcheck_options='--extra-arg=-std=c++20'
 let g:ale_sql_sqlfluff_options="--dialect postgres"
+let g:ale_r_lintr_options="with_defaults(line_length_linter(length = 120))"
 let g:ale_linters={
 			\ 'javascript': [],
 			\ 'cpp': ['clang', 'clangtidy', 'clangcheck', 'gcc'],

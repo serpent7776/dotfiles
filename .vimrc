@@ -266,6 +266,19 @@ let g:rbpt_colorpairs = [
 	\ ['red',         'firebrick3'],
 	\ ]
 
+function! DDgr(args)
+	if a:args == ""
+		let l:query = expand('<cword>')
+	else
+		let l:query = a:args
+	endif
+	if has('gui')
+		execute 'tab terminal env BROWSER=w3m ddgr ' . shellescape(l:query)
+	else
+		execute '!' 'env BROWSER=w3m ddgr ' . shellescape(l:query)
+	endif
+endfunction
+
 
 "Commands:
 " Open file in a new tab
@@ -277,6 +290,7 @@ command! F :call ListFKeyMaps()
 command! W : " disable Eunuch W command
 command! -range Rev :call ReverseLines(<line1>, <line2>)
 command! Scratch :new | setlocal buftype=nofile bufhidden=hide noswapfile | file "[Scratch]"
+command! -nargs=? DD :call DDgr(<q-args>)
 
 "Mappings:
 " get rid of annoying neovim mapping

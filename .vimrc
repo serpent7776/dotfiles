@@ -524,6 +524,12 @@ endif
 "autocommands:
 augroup myau
 	autocmd!
+	autocmd VimEnter *\(.ml\|.mli\)\@<! RainbowParenthesesLoadRound
+	autocmd VimEnter *\(.ml\|.mli\)\@<! RainbowParenthesesLoadBraces
+	" autocmd VimEnter *\(.ml\|.mli\)\@<! RainbowParenthesesLoadBraces
+	autocmd VimEnter *\(.ml\|.mli\)\@<! RainbowParenthesesToggle
+	
+	" file specific options
 	autocmd FileType gitcommit setlocal spell
 	autocmd FileType sml setlocal ts=2 sw=2
 	autocmd Syntax * RainbowParenthesesLoadRound

@@ -48,6 +48,8 @@ if !exists("g:nobundles")
 	Plug 'gauteh/vim-cppman'
 	Plug 'tikhomirov/vim-glsl'
 	Plug 'nickhutchinson/vim-cmake-syntax'
+	Plug 'NoahTheDuke/vim-just'
+	Plug 'serpent7776/vim-pglog-syntax'
 	" Plug 'kelwin/vim-smali'
 	" Plug 'serpent7776/vim-logcat'
 	Plug 'vim-scripts/brainfuck-syntax'

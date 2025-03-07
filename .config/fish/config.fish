@@ -1,4 +1,9 @@
 if status is-interactive
+	set fish_cursor_default     block
+	set fish_cursor_insert      block
+	set fish_cursor_replace_one underscore
+	set fish_cursor_visual      block
+
 	# One of these is alt+backspace.
 	bind --mode insert \e\x7f backward-kill-word
 	bind --mode insert \e\b backward-kill-word

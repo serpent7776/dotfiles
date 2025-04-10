@@ -57,8 +57,16 @@ if !exists("g:nobundles")
 	Plug 'ledger/vim-ledger'
 	Plug 'serpent7776/vim-vish'
 	Plug 'github/copilot.vim'
+	if has('nvim')
+		Plug 'nvim-lua/plenary.nvim' " required by copilot chat
+		Plug 'CopilotC-Nvim/CopilotChat.nvim'
+	endif
 
 	call plug#end()
+endif
+
+if has('nvim')
+	lua require("CopilotChat").setup()
 endif
 
 let g:copilot_filetypes = {

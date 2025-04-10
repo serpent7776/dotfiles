@@ -197,6 +197,7 @@ let g:ycm_key_list_select_completion = ['<S-CR>', '<Down>']
 let g:ycm_key_list_previous_completion = ['<Up>']
 let g:ycm_show_diagnostics_ui = 0
 let g:ycm_auto_hover=""
+let g:ycm_log_level='warning'
 "Notes:
 let g:notes_directories = ['~/.vim/misc/notes/user']
 let g:notes_shadowdir= '~/.vim/misc/notes/shadow'
@@ -222,7 +223,7 @@ let g:neocomplete#sources#syntax#min_keyword_length = 3
 let g:Lf_WindowPosition='popup'
 let g:Lf_PreviewPosition='right'
 let g:Lf_TabpagePosition=2
-let g:Lf_Ctags='uctags'
+let g:Lf_Ctags='ctags'
 let g:Lf_WildIgnore = {
 			\ 'dir': ['.svn', '.git', 'build', '.gradle', '.idea', 'libs', 'assets'],
 			\ 'file': ['*.sw?', '~$*', '*.bak', '*.exe', '*.o', '*.so', '*.py[co]']
@@ -243,10 +244,11 @@ let g:UltiSnipsEditSplit="context"
 "Ale:
 let g:ale_completion_enabled=1
 let g:ale_floating_preview=1
-let ale_virtualtext_cursor=0 " disable virtual text
+let g:ale_virtualtext_cursor=0 " disable virtual text
+let g:ale_nasm_nasm_options='-f elf64'
 let g:ale_cpp_cc_options="-std=c++20 -Wall -Wextra -pedantic -I /usr/local/include"
 let g:ale_cpp_clangtidy_options="-std=c++20 -I /usr/local/include"
-let ale_cpp_clangcheck_options='--extra-arg=-std=c++20'
+let g:ale_cpp_clangcheck_options='--extra-arg=-std=c++20'
 let g:ale_sql_sqlfluff_options="--dialect postgres"
 let g:ale_r_lintr_options="with_defaults(line_length_linter(length = 120))"
 let g:ale_linters={
@@ -365,8 +367,8 @@ map [l :lprevious<LF>
 map ]l :lnext<LF>
 
 "scrolling:
-nmap ,j 7 
-vmap ,j 7 
+nmap ,j 7
+vmap ,j 7
 nmap ,k 7
 vmap ,k 7
 nmap <M-Up> 
@@ -395,7 +397,7 @@ nnoremap \q :bd<LF>
 nnoremap ,q :q<LF>
 
 "tabs:
-map gr gT
+nnoremap gr gT
 nnoremap <C-K> gt
 nnoremap <C-J> gT
 nnoremap \t :tabs<LF>

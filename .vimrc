@@ -480,18 +480,26 @@ nmap ,'r :setl rnu!<LF>
 nmap ,'n :setl nu!<LF>
 nmap ,'l :setl list!<LF>
 
-"lsp:
+"lsp+linting:
+nnoremap \ax :ALEToggle<LF>
+nnoremap \ab :ALEToggleBuffer<LF>
+nnoremap \ad :ALEDetail<LF>
 nnoremap \ah :ALEHover<LF>
 nnoremap \af :ALEGoToDefinition<LF>
 nnoremap \ai :ALEGoToImplementation<LF>
 nnoremap \at :ALEGoToTypeDefinition<LF>
 nnoremap \aa :ALECodeAction<LF>
 nnoremap \ar :ALERename<LF>
+nnoremap \lx :LspStopServer<LF>
 nnoremap \lh :LspHover<LF>
 nnoremap \lc :LspDeclaration<LF>
+nnoremap \lC :split :LspDeclaration<LF>
 nnoremap \lf :LspDefinition<LF>
+nnoremap \lF :split :LspDefinition<LF>
 nnoremap \li :LspImplementation<LF>
+nnoremap \lI :split :LspImplementation<LF>
 nnoremap \lt :LspTypeDefinition<LF>
+nnoremap \lT :split :LspTypeDefinition<LF>
 nnoremap \lr :LspRename<LF>
 nnoremap \la :LspCodeAction<LF>
 
@@ -502,9 +510,7 @@ nmap ,gw :Gwrite<LF>
 nmap ,gb :Gblame<LF>
 nmap ,gs :Gstatus<LF>
 imap <C-l> <Plug>CapsLockToggle
-nnoremap \ab :ALEToggleBuffer<LF>
-nnoremap \ad :ALEDetail<LF>
-nnoremap \St :SignifyToggle<LF>
+nnoremap \Sb :SignifyToggle<LF>
 
 if has('gui_running')
 	nnoremap ,tt :!xterm -e tig<LF>

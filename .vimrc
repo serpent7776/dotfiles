@@ -389,7 +389,9 @@ vmap \p "+p
 vmap \P "+P
 imap <S-Insert> <C-R>*
 nmap ,p ]o\p
-set pastetoggle=<F12>
+if !has('nvim')
+	set pastetoggle=<F12>
+endif
 
 "buffers:
 nnoremap <C-n> :vnew<LF>

@@ -56,9 +56,19 @@ if !exists("g:nobundles")
 	" Plug 'jszakmeister/vim-togglecursor'
 	Plug 'ledger/vim-ledger'
 	Plug 'serpent7776/vim-vish'
+	Plug 'github/copilot.vim'
 
 	call plug#end()
 endif
+
+let g:copilot_filetypes = {
+			\ '*': v:false,
+			\ }
+let g:copilot_no_tab_map = v:true
+inoremap <C-\> <Plug>(copilot-suggest)
+inoremap <silent><script><expr> <Tab> copilot#Accept("")
+inoremap <silent><script><expr> <A-Right> copilot#AcceptWord("")
+inoremap <silent><script><expr> <C-Right> copilot#AcceptLine("")
 
 function! ListFKeyMaps()
 	let g:maps = ''
